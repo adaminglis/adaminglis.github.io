@@ -230,7 +230,7 @@ li a {
 }
 
 /* Top left text */
-.top-left {
+.work_number {
   position: absolute;
   top: 8px;
   left: 16px;
@@ -238,7 +238,7 @@ li a {
 }
 
 /* Bottom right text */
-.bottom-right {
+.project_on_social {
   position: absolute;
   bottom: 8px;
   right: 16px;
