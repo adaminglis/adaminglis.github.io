@@ -37,12 +37,14 @@ p {
   line-height: 20px;
   color: #575454;
 }
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 blockquote {
   font-family: "PT Sans";
   font-size: 21px;
@@ -91,7 +93,7 @@ footer a:hover {
 /* NOTE: fixed and scrolling columns */
 .sidebar-wrapper {
   position: fixed;
-  float:left;
+  float: left;
   vertical-align: middle;
   width: 30%;
   height: 100%;
@@ -124,9 +126,6 @@ footer a:hover {
 .about_copy {
   width: 220px;
 }
-
-
-
 }
 
 img {
@@ -134,11 +133,6 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
-
-
-
-
-
 
 /* NOTE: links */
 ul {
@@ -207,21 +201,16 @@ li a {
 }
 
 /* NOTE: portfolio items */
-
-
 .work_number {
   color: #fff;
 }
 
-.role {
+.role {}
 
-}
-.project {
+.project {}
 
-}
-.project_on_social {
+.project_on_social {}
 
-}
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -246,8 +235,8 @@ li a {
 }
 
 /* NOTE: folio images */
-.folio_image_1 {
-}
+.folio_image_1 {}
+
 .folio_1 {
   background-color: #1a8dcc;
   padding-right: 20%;
@@ -255,9 +244,9 @@ li a {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.folio_image_2 {
 
-}
+.folio_image_2 {}
+
 .folio_2 {
   background-color: #f05c38;
   padding-right: 20%;
@@ -265,9 +254,9 @@ li a {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.folio_image_3 {
 
-}
+.folio_image_3 {}
+
 .folio_3 {
   background-color: #ed413f;
   padding-right: 20%;
@@ -275,9 +264,9 @@ li a {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.folio_image_4 {
 
-}
+.folio_image_4 {}
+
 .folio_4 {
   background-color: #f9d22c;
   padding-right: 20%;
@@ -286,10 +275,7 @@ li a {
   padding-bottom: 5%;
 }
 
-
-
 /* NOTE: scripts */
-
 /* NOTE: responsive screen settings */
 @media (max-width: 991px) {
   .about {
@@ -349,30 +335,29 @@ li a {
     width: 85%;
   }
 
+  @media (max-width: 479px) {
+    .about {
+      width: auto;
+      margin-top: 35px;
+      font-size: 30px;
+      line-height: 36px;
+    }
 
-@media (max-width: 479px) {
-  .about {
-    width: auto;
-    margin-top: 35px;
-    font-size: 30px;
-    line-height: 36px;
-  }
+    .sidebar-wrapper {
+      position: static;
+      width: 100%;
+      height: auto;
+    }
 
-  .sidebar-wrapper {
-    position: static;
-    width: 100%;
-    height: auto;
-  }
+    .content-wrapper {
+      width: 100%;
+      margin-left: 0%;
+    }
 
-  .content-wrapper {
-    width: 100%;
-    margin-left: 0%;
-  }
+    .logo {
+      margin-top: 25px;
+    }
 
-  .logo {
-    margin-top: 25px;
-  }
-
-  .about-copy {
-    width: 80%;
-  }
+    .about-copy {
+      width: 80%;
+    }
