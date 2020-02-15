@@ -35,11 +35,24 @@
 
 /* NOTE: fixed and scrolling columns */
 
+
+
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+
+.wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
 .sidebar-wrapper {
   position: fixed;
   left: 0px;
   top: 0px;
-  right: 552px;
   bottom: 0px;
   z-index: 0;
   width: 30%;
@@ -52,9 +65,8 @@
 
 .content-wrapper {
     position: static;
-    overflow: visible;
+    overflow: auto;
     width: 70%;
-
     margin-left: 30%;
     float: none;
     clear: none;
@@ -76,6 +88,15 @@ h2 {
   font-family: "PT Sans";
   font-size: 18px;
   font-style: normal;
+  font-variant: normal;
+  color: #fff;
+}
+
+h3 {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 0px;
+  font-style: bold;
   font-variant: normal;
   color: #fff;
 }
@@ -122,8 +143,8 @@ pre {
 footer {
   padding-top: 30px;
   padding-left: 100px;
-  background-color: #fdfdfd;
   position: absolute;
+
 }
 
 a:link {
@@ -154,14 +175,12 @@ a:hover {
   width: 220px;
 }
 /* NOTE: image */
+
 img {
   max-width: 100%;
   vertical-align: middle;
   align: center;
   display: inline-block;
-}
-.image {
-align: center;
 }
 
 .center {
@@ -246,56 +265,53 @@ li a {
 
 .work_number {
   color: #fff;
-  position: absolute;
-  top: 8px;
-  left: 16px;
+padding-left: 5%;
   color: white;
 }
 
 .role {
 color: #fff;
+padding-left: 5%;
+padding-bottom: 10px;
 }
 
 .project {
 color: #fff;
+padding-left: 5%;
+padding-bottom: 10px;
 }
 
 .project_on_social {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
+  padding-left: 5%;
 }
+
 
 .folio_1 {
   background-color: #1a8dcc;
-  padding-right: 20%;
-  padding-left: 20%;
+  width: "100%";
+  padding-left: 17%;
   padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 .folio_2 {
   background-color: #f05c38;
-  padding-right: 20%;
-  padding-left: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+    width: "100%";
+    padding-left: 17%;
+    padding-top: 5%;
 }
 
 .folio_3 {
   background-color: #B08ABD;
-  padding-right: 20%;
-  padding-left: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+    width: "100%";
+    padding-left: 17%;
+    padding-top: 5%;
 }
 
 .folio_4 {
   background-color: #f9d22c;
-  padding-right: 20%;
-  padding-left: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+    width: "100%";
+    padding-left: 17%;
+    padding-top: 5%;
 }
 
 /* NOTE: scripts */
@@ -358,90 +374,33 @@ html.w-mod-js *[data-ix="new-interaction"] {
 /* NOTE: responsive screen settings */
 
 @media (max-width: 991px) {
-  .about {
-    margin-top: 75px;
-  }
   .sidebar-wrapper {
     position: static;
     width: 100%;
-    height: 500px;
-    padding-right: 55px;
-    padding-left: 55px;
   }
   .content-wrapper {
     width: 100%;
+    margin-left: 0%;
   }
-
-  .folio_1 {
-    width: 100%;
-  }
-  .folio_2 {
-    width: 100%;
-  }
-  .folio_3 {
-    width: 100%;
-  }
-  .folio_4 {
-    width: 100%;
-  }
-
-  .about-copy {
-    width: 100%;
-    margin-top: 35px;
-  }
-  .social {
-    opacity: 1;
-  }
-  .about_container {
-    position: static;
-    width: 65%;
-  }
-  .image {
-    margin-bottom: 35px;
-    margin-left: 18%;
-  }
-}
 
 @media (max-width: 767px) {
   .sidebar-wrapper {
     position: static;
     width: 100%;
-    padding-right: 55px;
-    padding-left: 55px;
   }
   .content-wrapper {
     width: 100%;
     margin-left: 0%;
   }
-  .about_container {
-    position: static;
-    width: 85%;
-  }
-  .footer-p {
-    text-align: center;
-  }
-}
 
 @media (max-width: 479px) {
-  .about {
-    width: auto;
-    margin-top: 35px;
-    font-size: 30px;
-    line-height: 36px;
-  }
+
   .sidebar-wrapper {
     position: static;
     width: 100%;
     height: auto;
-    padding: 25px 45px 75px;
   }
   .content-wrapper {
     width: 100%;
     margin-left: 0%;
-  }
-  .logo {
-    margin-top: 25px;
-  }
-  .about-copy {
-    width: 100%;
   }
