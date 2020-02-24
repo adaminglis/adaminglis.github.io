@@ -36,7 +36,9 @@
 /* NOTE: fixed and scrolling columns */
 
 
-
+.hero_image {
+  align-content: center;
+}
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
@@ -74,9 +76,7 @@
     clear: none;
 }
 
-.social {
 
-}
  /* NOTE: font and headings */
 h1 {
   font-family: "PT Sans";
