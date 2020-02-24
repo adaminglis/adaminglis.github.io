@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
 @import "normalize.css";
 
+body {
+  margin: 0;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -37,14 +40,19 @@
 
 
 .hero_image {
-  align-content: center;
+  margin: 0 auto;
+    display: block;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 
-
-
+.about {
+  margin: 10%;
+}
+.below_hero {
+  display:flex;
+}
 .wrapper {
     position: fixed;
     height: 100%;
@@ -60,9 +68,13 @@
   z-index: 0;
   width: 30%;
   height: 100%;
-  padding-left: 75px;
-  padding-top: 50px;
+  padding-left: 10%;
+  padding-top: 1%;
   padding-bottom: 50px;
+
+  /* padding-left: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px; */
   background-color: #fafafa;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fafafa));
   background-image: linear-gradient(180deg, #fafafa, #fafafa);
