@@ -297,6 +297,65 @@ li a {
 }
 
 
+.spotify_icon {
+  filter: gray;
+  opacity: 50%;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+}
+
+.spotify_icon:hover {
+  -webkit-filter: grayscale(0);
+  opacity: 100%;
+  filter: none;
+}
+
+.vsco_icon {
+  filter: gray;
+  opacity: 50%;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+}
+
+.lastfm_icon:hover {
+  -webkit-filter: grayscale(0);
+  opacity: 100%;
+  filter: none;
+}
+
+.lastfm_icon {
+  filter: gray;
+  opacity: 50%;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+}
+
+.twitter_icon:hover {
+  -webkit-filter: grayscale(0);
+  opacity: 100%;
+  filter: none;
+}
+
+.twitter_icon {
+  filter: gray;
+  opacity: 50%;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+}
+
+
 /* NOTE: portfolio items */
 
 .work_number {
