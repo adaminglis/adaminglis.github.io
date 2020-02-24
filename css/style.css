@@ -57,7 +57,9 @@
   z-index: 0;
   width: 30%;
   height: 100%;
-  padding: 75px 85px 50px;
+  padding-left: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #fafafa;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fafafa));
   background-image: linear-gradient(180deg, #fafafa, #fafafa);
@@ -72,7 +74,9 @@
     clear: none;
 }
 
+.social {
 
+}
  /* NOTE: font and headings */
 h1 {
   font-family: "PT Sans";
@@ -261,7 +265,6 @@ li a {
   filter: none;
 }
 
-
 .pinterest_icon {
   filter: gray;
   opacity: 50%;
@@ -277,8 +280,6 @@ li a {
   opacity: 100%;
   filter: none;
 }
-
-
 
 .vsco_icon {
   filter: gray;
