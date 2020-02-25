@@ -99,9 +99,9 @@ h2 {
 
 h3 {
   font-family: "PT Sans";
-  font-size: 18px;
+  font-size: 12px;
   /* line-height: 0px; */
-  font-weight: bold;
+  font-weight: normal;
   font-variant: normal;
   color: #fff;
   margin-bottom: 0;
@@ -110,10 +110,10 @@ h3 {
 
 h4 {
   font-family: "PT Sans";
-  font-size: 15px;
+  font-size: 10px;
   font-style: normal;
   font-variant: normal;
-  margin-top: 0;
+
   margin-bottom: 0;
   color: #fff;
 }
@@ -178,10 +178,8 @@ a:hover {
 }
 
 .resume {
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* NOTE: logo */
@@ -232,7 +230,7 @@ li a {
 
 .behance_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 100%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -248,7 +246,7 @@ li a {
 
 .dribbble_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 90%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -264,7 +262,7 @@ li a {
 
 .linkedin_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 90%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -280,7 +278,7 @@ li a {
 
 .pinterest_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 70%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -296,7 +294,7 @@ li a {
 
 .vsco_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 70%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -313,7 +311,7 @@ li a {
 
 .spotify_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 90%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -329,7 +327,7 @@ li a {
 
 .vsco_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 90%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -345,7 +343,7 @@ li a {
 
 .lastfm_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 90%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -361,7 +359,7 @@ li a {
 
 .twitter_icon {
   filter: gray;
-  opacity: 50%;
+  opacity: 90%;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -389,41 +387,32 @@ li a {
   padding-right: 5%;
 }
 .project_social {
-  padding-left: 5%;
-  padding-right: 5%;
   display: flex;
   justify-content: space-between;
 }
 .work_role {
-  padding-left: 5%;
-  padding-right: 5%;
+
   justify-content: space-space-around;
   display: grid;
 }
 .work_number {
-  padding-left: 5%;
-  padding-right: 5%;
+
   justify-content: space-space-around;
   display: grid;
 }
 
 .role {
-  padding-left: 5%;
-  padding-right: 5%;
   justify-content: space-space-around;
   display: grid;
 }
 
 .project {
-  padding-left: 5%;
-  padding-right: 5%;
   justify-content: space-space-around;
   display: grid;
 }
 
 .project_on_social {
-  padding-left: 5%;
-  padding-right: 5%;
+
   justify-content: space-space-around;
   display: grid;
 }
@@ -431,21 +420,23 @@ li a {
 .folio_1 {
   background-color: #1a8dcc;
   width: "100%";
-  padding-top: 5%;
+  padding-top: 2%;
+
 }
 
 .folio_2 {
   background-color: #f05c38;
     width: "100%";
-    padding-top: 5%;
+    padding-top: 2%;
+
 }
 
 .folio_3 {
   background-color: #B08ABD;
     width: "100%";
-    padding-top: 5%;
-}
+    padding-top: 2%;
 
+}
 
 /* NOTE: scripts */
 
