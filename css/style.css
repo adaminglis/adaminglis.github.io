@@ -367,6 +367,22 @@ li a {
   /* Microsoft Edge and Firefox 35+ */
 }
 
+.github_icon:hover {
+  -webkit-filter: grayscale(0);
+  opacity: 100%;
+  filter: none;
+}
+
+.github_icon {
+  filter: gray;
+  opacity: 90%;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+}
+
 
 /* NOTE: portfolio items */
 
@@ -512,10 +528,12 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .sidebar-wrapper {
     position: static;
     /* width: 100%; */
+        width: auto;
   }
   .content-wrapper {
     width: 100%;
     margin-left: 0%;
+        width: auto;
   }
 
 @media (max-width: 479px) {
@@ -524,8 +542,10 @@ html.w-mod-js *[data-ix="new-interaction"] {
     position: static;
     width: auto;
     height: auto;
+        width: auto;
   }
   .content-wrapper {
     width: 100%;
     margin-left: 0%;
+        width: auto;
   }
