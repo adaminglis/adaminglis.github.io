@@ -138,7 +138,7 @@ h6 {
 
 p {
   font-family: "PT Sans";
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -442,6 +442,13 @@ li a {
 
 /* NOTE: portfolio items */
 
+.folio_list_responsive_top {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.folio_list_responsive {
+
+}
 .hero_image {
   margin: 0 auto;
   display: block;
