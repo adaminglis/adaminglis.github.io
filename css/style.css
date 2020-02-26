@@ -63,7 +63,7 @@ body {
   height: 100%;
   padding-top: 1%;
   padding-bottom: 50px;
-  background-color: #fdfdfd;
+  background-color: #F8F9F9;
 }
 
 .content-wrapper {
@@ -98,7 +98,7 @@ h2 {
 
 h3 {
   font-family: "PT Sans";
-  font-size: 12px;
+  font-size: 15px;
   /* line-height: 0px; */
   font-weight: normal;
   font-variant: normal;
@@ -118,6 +118,14 @@ h4 {
   color: #fff;
 }
 
+h5 {
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  margin-bottom: 0;
+  color: #575454;
+}
 h6 {
   font-family: "PT Sans";
   font-size: 10px;
@@ -159,8 +167,7 @@ pre {
 /* NOTE: footer style */
 footer {
   position: relative;
-  left: 3%;
-  background-color: #fff;
+
 }
 
 a.class1:link {
@@ -243,6 +250,16 @@ ul {
   padding-inline-start: 0px;
 }
 
+.folio_list {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #575454;
+}
+
 li {
   /* float: left; */
 }
@@ -251,13 +268,19 @@ li a {
   display: block;
 }
 
+.contact {
+  padding-left: 3%;
+}
+.designer {
+  padding-left: 3%;
+}
 /* NOTE: social icons */
 
 .social {
   margin-block-start: 0em;
   padding-inline-start: 0px;
   }
-  .social li { display: inline-block;
+.social li { display: inline-block;
     margin-block-start: 0em;
     padding-inline-start: 0px;
   }
@@ -417,7 +440,6 @@ li a {
   /* Microsoft Edge and Firefox 35+ */
 }
 
-
 /* NOTE: portfolio items */
 
 .hero_image {
@@ -483,11 +505,15 @@ li a {
 
 .folio_3 {
   background-color: #B08ABD;
-    width: "100%";
-    padding-top: 2%;
-
+  width: "100%";
+  padding-top: 2%;
+  background-image: url("img/folio/develop/develop-noise-361x370.png");
 }
-
+article {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
+}
 /* NOTE: scripts */
 
 html.w-mod-js *[data-ix="work-transition"] {
