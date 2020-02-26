@@ -63,9 +63,7 @@ body {
   height: 100%;
   padding-top: 1%;
   padding-bottom: 50px;
-  background-color: #fafafa;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fafafa));
-  background-image: linear-gradient(180deg, #fafafa, #fafafa);
+  background-color: #fdfdfd;
 }
 
 .content-wrapper {
@@ -160,10 +158,9 @@ pre {
 
 /* NOTE: footer style */
 footer {
-  padding-top: 30px;
-  padding-left: 100px;
-  position: absolute;
-
+  position: relative;
+  left: 3%;
+  background-color: #fff;
 }
 
 a.class1:link {
@@ -242,6 +239,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  margin-block-start: 0em;
+  padding-inline-start: 0px;
 }
 
 li {
@@ -255,8 +254,13 @@ li a {
 /* NOTE: social icons */
 
 .social {
+  margin-block-start: 0em;
+  padding-inline-start: 0px;
   }
-  .social li { display: inline-block; }
+  .social li { display: inline-block;
+    margin-block-start: 0em;
+    padding-inline-start: 0px;
+  }
 
 .behance_icon {
   filter: gray;
