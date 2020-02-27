@@ -11,14 +11,19 @@
   <script type="text/javascript">
     console.log("Internal Javascript")
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- NOTE: External Javascript -->
   <script src="js/scripts.js" charset="utf-8"></script>
   <!-- NOTE: External stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
   <link href="css/style.css" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
   <link rel="icon" type="image/x-icon" href="img/logo/logo.ico">
-  </head>
 
-  <body>
+</head>
+
+<body>
 
   <!-- NOTE: LEFT sidebar starts here -->
   <div class="sidebar-wrapper">
@@ -308,8 +313,200 @@
       </div>
     </div>
     <!-- NOTE: folio item 1 ends here -->
+    <div class="case_study">
 
+      <article class="article">
+
+        <section class="introduction"><svg xmlns="http://www.w3.org/2000/svg" style="float:right;" width="248" height="62" viewBox="0 0 248 62">
+            <g fill="none" fill-rule="nonzero">
+              <path fill="#E3120B" d="M0 0h123.76v61.89H0z" />
+              <path fill="#FFF"
+                d="M57.175 12.771l.066 2.991-.699.044c-.065-1.834-.436-2.074-3.23-2.074h-.59v10.457c0 1.44.371 1.834 1.79 1.877l.044.502c-1.354-.022-2.38-.022-3.035-.022-.677 0-1.746 0-3.144.022l.044-.502c1.441-.043 1.812-.415 1.812-1.877v-10.48h-.698c-2.86 0-3.253.241-3.297 2.075l-.699-.044.066-2.99c2.62.021 4.584.043 5.894.043 1.223.022 3.144 0 5.676-.022zm1.157 13.317c1.288 0 1.463-.24 1.485-2.052v-8.732c-.022-1.812-.197-2.074-1.485-2.074l-.043-.459c1.768-.087 2.161-.153 3.755-.436v5.938c1.026-1.092 1.855-1.55 3.012-1.55 1.9 0 2.948 1.157 2.948 3.362v3.95c.021 1.813.196 2.053 1.484 2.053l.044.458c-1.114-.043-1.965-.087-2.533-.087-.545 0-1.331.044-2.401.087l.044-.458c1.026-.153 1.113-.35 1.135-2.052v-2.904c0-2.423-.415-3.23-1.703-3.23-.677 0-1.42.436-1.725 1.113-.109.24-.196.48-.262.72-.022.11-.022.175-.022.219v4.06c0 1.725.11 1.9 1.136 2.052l.043.459c-1.091-.044-1.877-.088-2.423-.088-.567 0-1.419.044-2.51.088l.021-.437zm20.478-1.419c-1.2 1.485-2.38 2.096-3.908 2.096-2.685 0-4.519-1.965-4.519-4.847 0-3.1 1.878-5.195 4.585-5.195 1.462 0 2.51.545 3.23 1.68.48.808.612 1.376.634 2.751h-6.135c.088 2.882 1.135 4.541 2.904 4.541 1.048 0 1.943-.48 2.881-1.572l.328.546zm-6.156-4.235c1.79-.044 2.314-.088 4.082-.262-.24-1.878-.939-2.75-2.14-2.75-1.157-.023-1.746.894-1.942 3.012zM7.4 44.36c1.572-.044 1.986-.459 1.986-2.074V32.244c0-1.593-.414-2.03-1.986-2.074l-.066-.524 3.297.044 5.217-.065 1.376.021.087 3.1-.851.066c-.153-1.943-.503-2.161-3.58-2.161H12.4l-.218.022v5.785c.414 0 .742.022.917.022.349.021.655.043.982.043 1.681 0 2.074-.35 2.096-1.943h.742c-.065 1.266-.065 1.921-.065 2.576 0 .524 0 1.245.021 2.205h-.698c-.088-1.528-.437-1.834-2.052-1.855l-1.157-.022-.808.043v4.476c0 1.812.109 1.9 1.921 1.9 2.401 0 3.1-.525 3.318-2.577l.852.044-.502 3.558-1.66.022-5.217-.044-3.537.022.066-.567zm21.7-.961c-1.223 1.266-2.205 1.746-3.624 1.746-2.838 0-4.65-2.204-4.65-5.523 0-3.47 1.92-5.632 5.02-5.632.809 0 1.638.153 2.904.502l.044 2.532-.96.066c-.35-1.878-.743-2.336-1.987-2.336-1.616 0-2.445 1.397-2.445 4.148 0 3.209 1.004 5.02 2.838 5.02.939 0 1.703-.414 2.554-1.309l.306.786zm2.292-3.384v-.327c0-3.602 1.943-5.676 5.283-5.676 3.078 0 5.261 2.27 5.261 5.588 0 3.319-2.117 5.567-5.326 5.567-3.057 0-5.109-2.052-5.218-5.152zm2.642-.24c.218 3.013 1.222 4.672 2.881 4.672 1.55 0 2.467-1.594 2.467-4.257 0-3.166-1.266-5.349-3.034-5.349-1.572 0-2.358 1.31-2.358 3.973 0 .306 0 .634.044.961zm10.435 4.628c1.397 0 1.615-.284 1.615-2.292v-4.934c0-1.943-.218-2.227-1.615-2.248l-.044-.48c1.878-.11 2.314-.175 3.93-.525l.109 1.9c1.222-1.332 2.161-1.834 3.45-1.834 2.095 0 3.274 1.353 3.274 3.733v4.388c-.022.175-.022.35-.022.502 0 1.375.371 1.768 1.68 1.768l.045.503c-1.245-.044-2.184-.088-2.817-.088-.59 0-1.506.044-2.641.088l.043-.503c1.114-.174 1.245-.393 1.245-2.292l.022-1.31v-1.899c0-2.685-.502-3.558-1.856-3.558-.83 0-1.55.436-1.987 1.2-.174.328-.327.83-.327 1.048v4.563c.022 1.9.13 2.117 1.266 2.292l.066.502c-1.201-.043-2.096-.087-2.707-.087-.634 0-1.55.044-2.751.087l.022-.524zm14.234-4.388v-.327c0-3.602 1.964-5.676 5.283-5.676 3.121 0 5.305 2.27 5.305 5.588 0 3.319-2.118 5.567-5.37 5.567-3.057 0-5.11-2.052-5.218-5.152zm2.663-.24c.218 3.013 1.222 4.672 2.838 4.672 1.55 0 2.467-1.594 2.467-4.257 0-3.166-1.266-5.349-3.013-5.349-1.55 0-2.336 1.31-2.336 3.973 0 .306 0 .634.044.961zm10.326 4.628c1.44 0 1.66-.284 1.66-2.292v-4.934c0-1.943-.22-2.227-1.66-2.248l-.044-.48c1.921-.11 2.358-.175 3.974-.525l.087 1.9c1.2-1.31 2.161-1.834 3.427-1.834 1.463 0 2.314.59 2.926 1.986 1.31-1.462 2.27-1.986 3.58-1.986 2.03 0 3.165 1.375 3.165 3.733v4.388c0 .175-.021.35-.021.502 0 1.375.393 1.768 1.68 1.768l.044.503c-1.244-.044-2.183-.088-2.794-.088-.59 0-1.463.044-2.642.088l.044-.503c1.135-.174 1.244-.393 1.266-2.292v-3.209c0-2.642-.458-3.558-1.812-3.558-.786 0-1.615.48-1.965 1.2-.109.262-.218.502-.283.808-.022.11-.044.196-.044.24v4.563c0 1.9.131 2.117 1.266 2.292l.044.502c-1.135-.043-1.987-.087-2.554-.087-.546 0-1.398.044-2.51.087l.043-.502c1.135-.175 1.244-.393 1.266-2.292v-3.21c0-2.64-.48-3.558-1.812-3.558-.808 0-1.55.437-1.943 1.2-.175.35-.306.83-.306 1.049v4.519c.022 1.9.11 2.117 1.267 2.292l.043.502c-1.179-.043-2.052-.087-2.641-.087-.633 0-1.55.044-2.795.087l.044-.524zm24.8-10.457v6.877l.022 1.31c0 2.008.196 2.292 1.659 2.292l.044.502c-1.332-.043-2.293-.087-2.97-.087-.633 0-1.593.044-2.881.087l.044-.502c1.419 0 1.615-.284 1.615-2.292l.022-1.31v-2.249l-.022-1.375c0-1.943-.196-2.227-1.615-2.249l-.044-.48c1.943-.13 2.401-.196 4.126-.524zm-2.75-3.558c0-.786.632-1.42 1.418-1.42.808 0 1.441.656 1.441 1.42 0 .807-.611 1.462-1.44 1.462-.808-.021-1.42-.633-1.42-1.462zm7.072 14.146l-.087-2.183 1.092-.044c.502 1.638.83 1.965 1.965 1.965.982 0 1.637-.502 1.637-1.288 0-.72-.459-1.266-1.812-2.161-.677-.48-1.157-.786-1.42-.982-.567-.437-.96-.94-1.178-1.507-.131-.327-.197-.698-.197-1.157 0-1.9 1.332-3.165 3.362-3.165.743 0 1.18.065 2.882.48l.044 2.118-1.092.043c-.24-1.397-.676-1.9-1.68-1.9-.961 0-1.66.547-1.66 1.31 0 .743.35 1.201 1.463 1.9a21.105 21.105 0 0 1 2.314 1.725c.611.567.939 1.31.939 2.117 0 1.9-1.594 3.34-3.646 3.34-.808.022-1.55-.152-2.926-.61zm8.842-9.89c1.703-.13 2.336-.85 2.816-3.077h.96v2.881h2.708l-.306 1.18h-2.401v5.217c0 2.598.35 3.209 1.812 3.209.35 0 .655-.044 1.179-.197v.612c-.72.415-1.747.633-2.773.633-.96 0-1.834-.524-2.205-1.332-.327-.655-.436-1.332-.436-2.75v-5.436h-1.376v-.94h.022z" />
+              <path fill="#000" d="M123.76 0h123.76v61.89H123.76z" />
+              <path fill="#FFF"
+                d="M137.71 26.721v-10.02h1.703v10.02h-1.703zm4.54 0v-10.02h1.573c3.383 5.13 3.798 5.698 4.388 6.724-.044-1.157-.066-2.576-.066-6.724h1.637v10.02h-1.44c-3.493-5.458-3.952-6.134-4.476-6.986.022.873.022 1.42.022 6.986h-1.637zm12.139 0V18.36h-2.62V16.7h6.986v1.66h-2.663v8.361h-1.703zm6.33 0v-10.02h5.524v1.637h-3.82v2.423h3.558v1.594h-3.558v2.75h4.06v1.616h-5.763zm8.187 0v-10.02h1.703v8.361h3.995v1.66h-5.698zm7.423 0v-10.02h1.703v8.361h3.995v1.66h-5.698zm7.422 0v-10.02h1.703v10.02h-1.703zm8.536.175c-2.707 0-4.54-2.052-4.54-5.152 0-3.144 1.964-5.218 4.606-5.218 1.593 0 2.445.306 3.056.742v1.812c-.698-.676-1.637-.96-2.729-.96-1.877 0-3.143 1.353-3.143 3.624 0 2.336 1.31 3.536 3.012 3.536.699 0 1.266-.174 1.594-.349V23.01h-1.725v-1.594h3.362v4.628c-.764.459-2.03.852-3.493.852zm6.135-.175v-10.02h5.523v1.637h-3.82v2.423h3.558v1.594h-3.558v2.75h4.06v1.616h-5.763zm8.186 0v-10.02h1.572c3.384 5.13 3.799 5.698 4.388 6.724-.043-1.157-.065-2.576-.065-6.724h1.637v10.02h-1.44c-3.494-5.458-3.952-6.134-4.476-6.986.022.873.022 1.42.022 6.986h-1.638zm14.365.175c-2.576 0-4.519-1.965-4.519-5.13 0-3.144 1.943-5.24 4.585-5.24 1.288 0 2.205.218 2.881.742v1.812c-.698-.72-1.659-.96-2.576-.96-1.855 0-3.121 1.288-3.121 3.624 0 2.445 1.44 3.558 3.187 3.558.96 0 1.768-.306 2.489-.873v1.68c-.764.525-1.66.787-2.926.787zm5.087-.175v-10.02h5.523v1.637h-3.82v2.423h3.558v1.594h-3.558v2.75h4.06v1.616h-5.763zm-55.32 8.361v5.764c0 .698.066 1.179.197 1.637.262.808.982 1.2 1.92 1.2 1.049 0 1.725-.436 1.966-1.31.109-.436.174-.96.174-1.57v-5.699h1.66v5.764c0 .982-.11 1.768-.328 2.38-.459 1.309-1.725 2.051-3.515 2.051-1.594 0-2.882-.633-3.384-1.964-.24-.634-.349-1.42-.349-2.38v-5.85h1.66v-.023zm8.667 10.02v-10.02h1.572c3.384 5.13 3.798 5.698 4.388 6.724-.044-1.157-.066-2.576-.066-6.724h1.638v10.02h-1.441c-3.493-5.457-3.952-6.134-4.475-6.985.021.873.021 1.419.021 6.986h-1.637zm10.392 0v-10.02h1.702v10.02H189.8zm6.287 0v-8.36h-2.62v-1.66h6.986v1.66h-2.663v8.36h-1.703z" />
+            </g>
+          </svg>
+
+          <h1>Who are the EIU?</h1>
+          <p>The Economist Intelligence Unit (EIU) is the research and analysis division of The Economist Group, and the sister company to The Economist newspaper.</p>
+
+          <p>The EIU helps businesses, the financial sector, and governments, understand how the world is changing and how that creates opportunities to be seized and risks to be managed.
+
+
+            <p>As the research lead, I wanted to know what was needed to begin prototyping a dedicated content-driven app that could increase overall engagement in the EIU’s free marketing content.
+            </p>
+
+        </section>
+<!-- NOTE: research starts here -->
+        <section class="research">
+          <h1>Research outline</h1>
+
+          <h5>Objective</h5>
+          <br>
+          <p> Find new ways to increase engagement with the EIU through sign-ups, views, downloads, and sharing.</p>
+
+
+
+          <h5>Goals</h5>
+<br>
+            <ol>
+              <li>Create a companion app for the Insights section of the EIU website.</li>
+              <li>Create opportunities for increased engagement of users through:<ul>
+                  <li>Increased sign-ups, views, downloads, and sharing;</li>
+                  <li>Increased loyalty through use over time, and retention;</li>
+                  <li>Increased numbers of inquiries.</ul></li>
+              <li>Design a mobile experience that encourages users to engage with EIU outside of an office environment/work setting.</li>
+              <li>Create opportunities for users’ onward journey.</li>
+              <li>Consider various types of digital media content that may include: videography, podcasts, photography, illustrations, interactive and animated elements, maps and geo-visualizations, information graphics, data visualizations, whitepaper documents, etc.</li>
+            </ol>
+
+
+<h5>Research questions</h5>
+<br>
+<ul style="font-family:PT Sans; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; color: #575454;">
+  <li>How can we introduce new users to the EIU brand?</li>
+  <li>What are the current user’s needs?</li>
+  <li>What would keep users coming back to an EIU app? </li>
+  <li>How can we scale EIU insights section into a mobile experience?</li>
+  <li>How can we create a clear path to conversion for EIU customers?</li>
+</ul>
+
+
+
+</section>
+
+<!-- NOTE: Competitive analysis starts here  -->
+      <section class="Competitive_analysis">
+<h1>Competitive analysis</h1>
+<h5>Brand position</h5>
+<p style="text-align: center; padding-left: 5%; padding-right: 5%;""><img class="" src="img/folio/eiu/brand_position.gif" style="; float: none; padding-bottom:3%; padding-left:3%"></p>
+
+</section>
+<!-- NOTE: user interviews starts here -->
+<section class="User interviews">
+  <h1>User interviews</h1>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<!-- NOTE: Synthesis starts here -->
+<section class="Synthesis">
+          <h1>Synthesis</h1>
+
+
+
+
+          <h5>Interview transcription, thematic analysis, and affinity mapping</h5>
+
+
+<br>
+<!-- NOTE: carousel starts here -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <p style="text-align: center;"><img src="img/folio/eiu/interview.png" alt="Transcription"></p>
+              </div>
+
+              <div class="item">
+                <img src="img/folio/eiu/affinity.png" alt="Affinity Map">
+              </div>
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+<!-- NOTE: carousel ends here -->
+
+
+
+
+
+<!-- NOTE: Design starts here -->
+<h1>Design</h1>
+<!-- NOTE: persona stats here -->
+<h5>Persona building</h5>
+
+
+<p style="text-align: center;"><img class="" src="img/folio/eiu/persona_sketches2.png" style="; float: none; padding-bottom:3%; padding-left:3%"></p>
+
+<h5>Personas</h5>
+
+
+<br>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/folio/eiu/12-The EIU_ Capstone Mock Presentation.png" alt="New Prospect">
+    </div>
+
+    <div class="item">
+      <img src="img/folio/eiu/12-The EIU_ Capstone Mock Presentation (1).png" alt="Switcher">
+    </div>
+
+    <div class="item">
+      <img src="img/folio/eiu/12-The EIU_ Capstone Mock Presentation (2).png" alt="Future-generation EIU subscriber">
+    </div>
+
+    <div class="item">
+      <img src="img/folio/eiu/12-The EIU_ Capstone Mock Presentation (3).png" alt="Influencer">
+    </div>
   </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<h1>Information architecture<h1>
+  <h5>taxonomy<h5>
+<h1>Usability tests</h1>
+
+
+
+        </section>
+      </article>
+      <br>
+      <br><br><br><br><br><br>
+    </div>
     <!-- NOTE: right sidebar finishes here -->
     <footer>
       <div class="contact">
@@ -326,7 +523,9 @@
       </div>
     </footer>
 
-  <!-- NOTE: left sidebar ends here -->
+    <!-- NOTE: left sidebar ends here -->
+
+
 
 </body>
 
