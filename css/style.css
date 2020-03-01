@@ -88,7 +88,17 @@ body {
   background-color: white;
   overflow: hidden;
 }
-
+#header_icon {
+  width: 65px;
+  height: 65px;
+  text-align: center;
+}
+#round_icon {
+  width:120px;
+  height:120px;
+  text-align: center;
+  justify-content: center;
+}
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
 }
@@ -629,13 +639,24 @@ li a {
   display: grid;
 }
 
-img .app_icon {
-  border-radius: 10%;
-  padding: 5%;
-}
 
+.app_icon {
+  border-radius: 22%;
+  margin: 1%;
+  width:60px;
+}
+.folio_body {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align:left;
+}
 .space_around {
+  align-content: center;
   justify-content: space-around;
+  display: block;
+  text-align:center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .folio_1 {
