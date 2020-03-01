@@ -223,11 +223,11 @@ h5 {
 
 h6 {
   font-family: "PT Sans";
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 10px;
   color: #575454;
 }
 
@@ -385,7 +385,7 @@ ol {
   line-height: 20px;
   color: #575454;
 }
-
+.user_icon
 li {
   /* float: left; */
 }
@@ -645,6 +645,23 @@ li a {
   margin: 1%;
   width:60px;
 }
+.app_icon_div {
+  width:65px;
+  text-align:center;
+  display: center;
+  margin-right: 2%;
+  margin-bottom: 2%
+}
+
+.londonnewyork {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
 .folio_body {
   padding-left: 20%;
   padding-right: 20%;
@@ -652,11 +669,10 @@ li a {
 }
 .space_around {
   align-content: center;
-  justify-content: space-around;
-  display: block;
+  justify-content: center;
+  display: inline-flex;
   text-align:center;
-  padding-left: 20%;
-  padding-right: 20%;
+  flex-wrap: wrap;
 }
 
 .folio_1 {
@@ -689,7 +705,7 @@ article {
 }
 
 div.circletag {
-  display: block;
+
   width: 100px;
   height: 100px;
   background: #3C4FAF;
@@ -700,11 +716,16 @@ div.circletag {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  float:left;
+  display: table;
+  clear: both;
+  content: "";
 }
 
 div.circletag>img {
   max-height: 100%;
   max-width: 100%;
+
 }
 
 .article_heading {
