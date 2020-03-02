@@ -89,13 +89,13 @@ body {
   overflow: hidden;
 }
 #header_icon {
-  width: 65px;
-  height: 65px;
+  width: 10em;
+  height: 10em;
   text-align: center;
 }
 #round_icon {
-  width:120px;
-  height:120px;
+  width: 5em;
+  height: 5em;
   text-align: center;
   justify-content: center;
 }
@@ -660,6 +660,10 @@ li a {
   padding-bottom: 5%;
 }
 
+.folio_image_wide {
+  padding:5%
+  text-align:center;
+}
 
 
 .folio_body {
@@ -670,9 +674,10 @@ li a {
 .space_around {
   align-content: center;
   justify-content: center;
-  display: inline-flex;
-  text-align:center;
-  flex-wrap: wrap;
+  display:  flex;
+  text-align: center;
+  flex-flow: wrap;
+  max-width: 500px:
 }
 
 .folio_1 {
@@ -695,8 +700,8 @@ li a {
 }
 
 article {
-  padding-left: 10%;
-  padding-right: 10%;
+
+
   padding-top: 3%;
   width: auto;
   -webkit-columns: 2 200px;
@@ -751,6 +756,11 @@ div.circletag>img {
   border-right: solid 1px #ffffff;
   background-color: #ffffff;
 }
+
+
+
+
+
 
 /* NOTE: scripts */
 html.w-mod-js *[data-ix="work-transition"] {
