@@ -223,11 +223,11 @@ h5 {
 
 h6 {
   font-family: "PT Sans";
-  font-size: 12px;
+  font-size: 13px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 10px;
+  line-height: 12px;
   color: #575454;
   margin-block-start: .5em;
   margin-block-end: .5em;
@@ -650,11 +650,11 @@ li a {
   width:60px;
 }
 .app_icon_div {
-  width:65px;
+  width:75px;
   text-align:center;
   display: center;
-  margin-right: 2%;
-  margin-bottom: 2%
+  margin-right: 4%;
+  margin-bottom: 3%
 }
 
 .londonnewyork {

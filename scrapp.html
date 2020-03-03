@@ -14,6 +14,7 @@
   <!-- NOTE: External Javascript -->
   <script src="js/scripts.js" charset="utf-8"></script>
   <!-- NOTE: External stylesheet -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="css/style.css" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
   <link rel="icon" type="image/x-icon" href="img/logo/logo.ico">
 </head>
@@ -217,9 +218,63 @@
           <h3>iOS</h3>
         </div>
       </div>
-      <div class="hero_image"><img alt="scrapp" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
-        img/folio/scrapp/scrapp_01_600.png   600w,
-        img/folio/scrapp/scrapp_01_800.png   800w," />
+      <div class="hero_image">
+
+
+
+
+
+
+
+
+
+        <div class="w3-content w3-display-container">
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
+          img/folio/scrapp/scrapp_01_600.png   600w,
+          img/folio/scrapp/scrapp_01_800.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/eiu/eiu_01_800.png" srcset="
+          img/folio/eiu/eiu_01_600.png   600w,
+          img/folio/eiu/eiu_01_800.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
+          img/folio/scrapp/scrapp_01_600.png   600w,
+          img/folio/scrapp/scrapp_01_800.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
+          img/folio/scrapp/scrapp_01_600.png   600w,
+          img/folio/scrapp/scrapp_01_800.png   800w," />
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+              slideIndex = 1
+            }
+            if (n < 1) {
+              slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+          }
+        </script>
+
+
+
+
+
+
       </div>
       <div class="below_hero">
         <div class="project">
@@ -314,7 +369,7 @@
         <h1>What is scrapp?</h1>
       </div>
       <div class="introduction">
-        <h5 class="introduction">Donate: simply, ethically, consiously</h5>
+        <h5 class="introduction">scrapp helps you donate simply, ethically, consiously.</h5>
       </div>
       <br>
       <!-- NOTE: research starts here -->
@@ -329,16 +384,16 @@
 
       <div class="folio_body">
 
-            <article class="outline">
-              <h5><strong>The problem</strong></h5>
-              <br>
-              <p>User research finds significant deficiencies in non-profit organizations' website content, which often fails to provide the info people need to make donation decisions. <br><Br>Scholarly research shows that individuals are not concerned
-                with where the items go. <br> <br>They are more concerned with the ease of donating.</p>
-              <br>
-              <div class="contentbox">
-                <h5><strong>Research questions</strong></h5><img src="img/folio/eiu/search.svg" width="50px" align="right">
-              </div>
-            </article>
+        <article class="outline">
+          <h5><strong>The problem</strong></h5>
+          <br>
+          <p>User research finds significant deficiencies in non-profit organizations' website content, which often fails to provide the info people need to make donation decisions. <br><Br>Scholarly research shows that individuals are not concerned
+            with where the items go. <br> <br>They are more concerned with the ease of donating.</p>
+          <br>
+          <div class="contentbox">
+            <h5><strong>Research questions</strong></h5><img src="img/folio/eiu/search.svg" width="50px" align="right">
+          </div>
+        </article>
       </div>
       <br>
       <br>
@@ -387,51 +442,34 @@
             <img class="app_icon" src="img/folio/scrapp/salvos.png" alt="Salvation Army Family Store">
             <h6>Salvation Army Family Store</h6>
           </div>
-
-
           <div class="app_icon_div">
             <img class="app_icon" src="img/folio/scrapp/goodwill.png" alt="Goodwill Mobile App">
             <h6>Goodwill Mobile App</h6>
           </div>
-
-
           <div class="app_icon_div">
             <img class="app_icon" src="img/folio/scrapp/donatenyc.png" alt="donateNYC">
             <h6>donateNYC</h6>
           </div>
-
-
           <div class="app_icon_div">
             <img class="app_icon" src="img/folio/scrapp/googlemaps.png" alt="Google Maps">
             <h6>Google Maps</h6>
           </div>
-
-
           <div class="app_icon_div">
             <img class="app_icon" src="img/folio/scrapp/foursquare.png" alt="Foursquare">
             <h6>Foursquare</h6>
           </div>
-
-
-
           <div class="app_icon_div">
             <img class="app_icon" src="img/folio/scrapp/gofundme.png" alt="GoFundMe">
             <h6>GoFundMe</h6>
           </div>
-
-
-
           <div class="app_icon_div">
             <img class="app_icon" src="img/folio/scrapp/yelp.png" alt="Yelp">
             <h6>Yelp</h6>
           </div>
-
-
-
         </div>
       </div>
 
-
+      <hr>
 
       <div class="article_heading_small">
         <div>
@@ -440,84 +478,64 @@
         </div>
       </div>
       <div class="folio_body">
-        <p>Ha-Brookshire and Hodges (2009) studied social responsibility as a motivator for used clothing donations.</p>
-        <p>The authors found that discarding used clothing was usually prompted by the need to make room for new clothes.</p>
-        <p>Social responsibility was a weak motivator for used clothing donation;</p>
-        <p>There is a possible gap between how nonprofits describe used clothing donation and how consumers understand it.</p>
-    </div>
+
+        <p><strong><a href="https://journals.sagepub.com/doi/abs/10.1177/0887302X08327199" target="_blank">Ha-Brookshire and Hodges (2009)</a></strong> studied social responsibility as a motivator for used clothing donations. The authors found that
+          discarding used clothing was usually prompted by the need to make room for new clothes.</p>
+        <img class="" src="img/folio/scrapp/habrookshireandhodges.png">
 
 
 
-
-
-
-
-
-
-      <!-- NOTE: Service blueprint starts here  -->
-
-
-      <div class="article_heading" style="background-color:#f05c38;">
-        <div>
-          <img src="img/folio/scrapp/serviceblueprint.svg" id="header_icon">
-          <h1 style="color:#ffffff;">Service blueprint</h1>
-        </div>
+        <p>Social responsibility was a weak motivator for used clothing donation and there is a possible gap between how nonprofits describe used clothing donation and how consumers understand it.</p>
+        <br>
+        <h5 style="text-align:center;">Our user subsequent research supported these findings.</h5>
+        <br>
+        <br>
       </div>
 
 
 
-
-
-      <div class="folio_body">
-        <div>
-          <h5>Drop it off</h5>
-            <p><em>Support community organization directly.</em></p>
-          <p><img src="img/folio/scrapp/sb_dropitoff.svg"></p>
-          <p>Find a nearby drop off point and take your donation items in-person. Find out exactly who takes what, and what the organization stands for.</p>
-          <hr>
-        </div>
-
-
-
-        <div>
-          <h5>scrapp picks it up</h5>
-          <p><em>Logged in user with profile and preferences pre set</em></p>
-          <p><img src="img/folio/scrapp/sb_pickitup.svg"></p>
-
-          <p>We come and pick it up and take it away. It goes to our facility where it gets sorted. It is then sold to third party or other second-hand good dealers. Profit go directly to your elected cause/s per your profile settings.</p>
-          <hr>
-        </div>
-
-
-        <div>
-          <h5>Support a community organization </h5>
-          <p><em>Support a community organization with a monetary pledge</em></p>
-          <p><img src="img/folio/scrapp/sb_support.svg"></p>
-          <p>Some problems can only be solved with money. Some users may also be able to support a cause they care about by way of a financial donation. These can be one off’s, or monthly. This flow shows how a user can use  apple pay to contribute to  a cause they care about. Use Apple Pay to buy a community organiztion you care about something they really need.</p>
-          <hr>
-        </div>
-
-
-</div>
-
-
+      <!-- NOTE: interviews start here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
           <img src="img/folio/scrapp/interview.svg" id="header_icon">
           <h1 style="color:#ffffff;">Interviews</h1>
         </div>
       </div>
+<div class="folio_body">
+      <p>My team conducted several rounds of interviews with a variety of user types from their personal and professional networks. </p>
 
-      <p>placeholder</p>
 
+
+</div>
       <!-- NOTE: Synthesis starts here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <img src="img/folio/scrapp/synthesis.svg" id="header_icon">
         <h1 style="color:#ffffff;">Synthesis</h1>
       </div>
 
+      <div class="article_heading_small">
+        <div>
+          <img src="img/folio/scrapp/affinitymap.svg" id="round_icon">
+          <h5>Affinity mapping</h5>
+        </div>
+      </div>
 
-      <p>placeholder</p>
+      <div class="folio_body">
+
+        <p style="text-align:center;"><img src="img/folio/scrapp/IMG_7310.jpg"></p>
+        <p>After transcribing and analyzing our first round of interviews, we started to affinity-map out themes that kept coming up. Sub-themes also began to emerge within top level categories.</p>
+        <p>The data we captured revaled insight into our users demographics, motivations, pain points, current solutions and likes and needs.<p>
+
+            <p style="text-align:center;"><img src="img/folio/scrapp/affinity900w.gif"></p>
+      </div>
+
+
+
+
+
+
+
+
 
 
       <div class="article_heading" style="background-color:#f05c38;">
@@ -530,6 +548,186 @@
 
 
 
+
+
+
+      <div class="article_heading_small" style="text-align:center;">
+        <img id="round_icon" src="img/folio/scrapp/motivation.svg">
+        <h5><strong>Motivations</strong></h5>
+        <br>
+
+        <div class="folio_body user_icons">
+          <div class="space_around">
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/vacuum.svg" alt="Company directors">
+              <h6>Decluttering</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/ethics.svg" alt="Executives">
+              <h6>Ethics</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/help.svg" alt="Researchers">
+              <h6>Giving back</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/guilt.svg" alt="Economists">
+              <h6>Guilt</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/overpriced.svg" alt="Product managers">
+              <h6>Value</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <hr>
+
+      <div class="article_heading_small" style="text-align:center;">
+        <img id="round_icon" src="img/folio/scrapp/solution.svg">
+        <h5><strong>Current solutions</strong></h5>
+        <br>
+
+        <div class="folio_body user_icons">
+          <div class="space_around">
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/storage.svg" alt="Company directors">
+              <h6>Hoard it or ignore it</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/giveup.svg" alt="Executives">
+              <h6>Give it away</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/landfill.svg" alt="Researchers">
+              <h6>Throw it away</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/selling.svg" alt="Economists">
+              <h6>Donate it</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/eiu/investor.svg" alt="Product managers">
+              <h6>Seek value or sell it</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/arrow.svg" alt="Investors in projects">
+              <h6>Recycle it</h6>
+            </div>
+          </div>
+        </div>
+
+
+<hr>
+
+
+      </div>
+
+      <div class="article_heading_small" style="text-align:center;">
+        <img id="round_icon" src="img/folio/scrapp/painpoints.svg">
+        <h5><strong>Pain points</strong></h5>
+        <br>
+
+        <div class="folio_body user_icons">
+          <div class="space_around">
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/map.svg" alt="Company directors">
+              <h6>Convenience around donation process and nearby donation sites</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/jigsaw.svg" alt="Executives">
+              <h6>Knowledge gaps around the donation process</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/yes.svg" alt="Researchers">
+              <h6>Dontation sites only take certain typs of items</h6>
+            </div>
+            <div class="app_icon_div">
+              <img class="user_icon" src="img/folio/scrapp/lgbt.svg" alt="Economists">
+              <h6>Conflicts of interest with unethical charity (ie: some are anti LGBT)</h6>
+            </div>
+          </div>
+        </div>
+<hr>
+        <div class="article_heading_small" style="text-align:center;">
+          <img id="round_icon" src="img/folio/scrapp/love.svg">
+          <h5><strong>What they love</strong></h5>
+          <br>
+
+          <div class="folio_body user_icons">
+            <div class="space_around">
+              <div class="app_icon_div">
+                <img class="user_icon" src="img/folio/scrapp/vacuum.svg" alt="Company directors">
+                <h6>Decluttering</h6>
+              </div>
+              <div class="app_icon_div">
+                <img class="user_icon" src="img/folio/scrapp/tree.svg" alt="Executives">
+                <h6>The environment</h6>
+              </div>
+              <div class="app_icon_div">
+                <img class="user_icon" src="img/folio/scrapp/helpinghands.svg" alt="Researchers">
+                <h6>Social impact</h6>
+              </div>
+              <div class="app_icon_div">
+                <img class="user_icon" src="img/folio/eiu/investor.svg" alt="Financial return">
+                <h6>Financial return</h6>
+              </div>
+              <div class="app_icon_div">
+                <img class="user_icon" src="img/folio/scrapp/map.svg" alt="Economists">
+                <h6>Convenience</h6>
+              </div>
+              <div class="app_icon_div">
+                <img class="user_icon" src="img/folio/scrapp/discover.svg" alt="Economists">
+                <h6>Discovery</h6>
+              </div>
+            </div>
+          </div>
+
+<hr>
+          <div class="article_heading_small" style="text-align:center;">
+            <img id="round_icon" src="img/folio/scrapp/needs.svg">
+            <h5><strong>What they need</strong></h5>
+            <br>
+
+            <div class="folio_body user_icons">
+              <div class="space_around">
+                <div class="app_icon_div">
+                  <img class="user_icon" src="img/folio/scrapp/map.svg" alt="Company directors">
+                  <h6>Convenience (overwhelmingly)</h6>
+                </div>
+                <div class="app_icon_div">
+                  <img class="user_icon" src="img/folio/eiu/investor.svg" alt="Executives">
+                  <h6>An incentive</h6>
+                </div>
+                <div class="app_icon_div">
+                  <img class="user_icon" src="img/folio/scrapp/help2.svg" alt="Researchers">
+                  <h6>A good cause</h6>
+                </div>
+                <div class="app_icon_div">
+                  <img class="user_icon" src="img/folio/scrapp/information.svg" alt="Economists">
+                  <h6>Information</h6>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+      </div>
+
+
+
+
+<div class="folio_body">
+
+
+
+</div>
 
 
       <div class="article_heading" style="background-color:#f05c38;">
@@ -551,19 +749,72 @@
 
 
 
+            <!-- NOTE: Service blueprint starts here  -->
 
-      <p>placeholder</p>
+
+            <div class="article_heading" style="background-color:#f05c38;">
+              <div>
+                <img src="img/folio/scrapp/serviceblueprint.svg" id="header_icon">
+                <h1 style="color:#ffffff;">Service blueprint</h1>
+              </div>
+            </div>
+            <!-- NOTE: donate in person starts here -->
+            <div class="folio_body">
+              <div class="article_heading_small">
+                <img src="img/folio/scrapp/donateinperson.svg" id="round_icon">
+                <h5>Donate in person</h5>
+              </div>
+              <p><em>Support community organization directly.</em></p>
+              <p>Find a nearby drop off point and take your donation items in-person. Find out exactly who takes what, and what the organization stands for.</p>
+              <p><img src="img/folio/scrapp/sb_dropitoff.svg"></p>
+            </div>
+            <hr>
+            <!-- NOTE: scrap picks ot up starts here -->
+            <div class="folio_body">
+              <div class="article_heading_small">
+                <img src="img/folio/scrapp/pickup.svg" id="round_icon">
+                <h5>We pick it up</h5>
+              </div>
+              <div>
+                <h5>scrapp picks it up</h5>
+                <p><em>Logged in user with profile and preferences pre set</em></p>
+                <p><img src="img/folio/scrapp/sb_pickitup.svg"></p>
+                <p>We come and pick it up and take it away. It goes to our facility where it gets sorted. It is then sold to third party or other second-hand good dealers. Profit go directly to your elected cause/s per your profile settings.</p>
+              </div>
+            </div>
+            <hr>
+            <!-- NOTE: support community org starts here -->
+            <div class="folio_body">
+              <div class="article_heading_small">
+                <img src="img/folio/scrapp/donatecash.svg" id="round_icon">
+                <h5>Support a community organization</h5>
+              </div>
+              <div>
+                <p><em>Support a community organization with a monetary pledge</em></p>
+                <p><img src="img/folio/scrapp/sb_support.svg"></p>
+                <p>Some problems can only be solved with money. Some users may also be able to support a cause they care about by way of a financial donation. These can be one off’s, or monthly. This flow shows how a user can use apple pay to contribute
+                  to a cause they care about. Use Apple Pay to buy a community organiztion you care about something they really need.</p>
+              </div>
+            </div>
+
+<!-- NOTE: prototype starts here -->
+
+
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
           <img src="img/folio/scrapp/prototype.svg" id="header_icon">
           <h1 style="color:#ffffff;">Prototype</h1>
         </div>
       </div>
+      <div class="article_heading_small">
+        <img src="img/folio/scrapp/wireframe.svg" id="round_icon">
+        <h5>Wireframe</h5>
+      </div>
+      <div class="folio_image_wide">
 
+      <p><img src="img/folio/scrapp/scrappwireframe.png"></p>
 
-      <p>placeholder</p>
-
-
+    </div>
       <!-- NOTE: right sidebar finishes here -->
 
       <footer>
