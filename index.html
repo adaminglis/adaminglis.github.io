@@ -13,6 +13,7 @@
   <!-- NOTE: External Javascript -->
   <script src="js/scripts.js" charset="utf-8"></script>
   <!-- NOTE: External stylesheet -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="css/style.css" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
   <link rel="icon" type="image/x-icon" href="img/logo/logo.ico">
 </head>
@@ -200,20 +201,20 @@
     <!-- NOTE: folio item 1 starts here -->
     <div class="folio_1 eiu">
       <div class="above_hero">
-        <div class="role">
-          <h3>User Research/UX</h3>
+        <div class="project">
+          <h2><a class="class2" href="eiu.html">Economist Intelligence Unit</a></h2>
         </div>
         <div class="work_number">
-          <h3>i0S</h3>
+          <h2>for i0S</h2>
         </div>
       </div>
-      <div clsss="hero_image"><img alt="scrapp" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/eiu/eiu_01_800.png" srcset="
+      <div clsss="hero_image"><a href="eiu.html"><img alt="scrapp" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/eiu/eiu_01_800.png" srcset="
         img/folio/eiu/eiu_01_600.png   600w,
-        img/folio/eiu/eiu_01_800.png   800w," />
+        img/folio/eiu/eiu_01_800.png   800w," /></a>
       </div>
       <div class="below_hero">
-        <div class="project">
-          <h2><a class="class2" href="eiu.html">The Economist: Intelegence Unit</a></h2>
+        <div class="role">
+          <h3>Role: Research/UX</h3>
         </div>
         <div class="project_on_social">
           <nav>
@@ -300,23 +301,62 @@
     <!-- NOTE: folio item 1 ends here -->
     <!-- NOTE: folio item 2 starts here -->
     <div class="folio_2 scrapp">
+
       <div class="above_hero">
-        <div class="role">
-          <h3>UI/UX</h3>
-        </div>
-        <div class="work_number">
-          <h3>iOS</h3>
-        </div>
-      </div>
-      <div class="hero_image"><img alt="scrapp" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
-        img/folio/scrapp/scrapp_01_600.png   600w,
-        img/folio/scrapp/scrapp_01_800.png   800w," />
-      </div>
-      <div class="below_hero">
         <div class="project">
-          <a href="scrapp.html" class="class2">
-            <h2>Scrapp</h2>
-          </a>
+          <h2><a href="scrapp.html" class="class2">Scrapp</a></h2>
+        </div>
+
+        <div class="work_number">
+          <h2>for iOS</h3>
+        </div>
+      </div>
+
+      <div class="hero_image">
+        <div class="w3-content w3-display-container">
+          <a href="scrapp.html"><img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
+          img/folio/scrapp/scrapp_01_600.png   600w,
+          img/folio/scrapp/scrapp_01_800.png   800w," /></a>
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/eiu/eiu_01_800.png" srcset="
+          img/folio/eiu/eiu_01_600.png   600w,
+          img/folio/eiu/eiu_01_800.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
+          img/folio/scrapp/scrapp_01_600.png   600w,
+          img/folio/scrapp/scrapp_01_800.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/scrapp_01_800.png" srcset="
+          img/folio/scrapp/scrapp_01_600.png   600w,
+          img/folio/scrapp/scrapp_01_800.png   800w," />
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+              slideIndex = 1
+            }
+            if (n < 1) {
+              slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+          }
+        </script>
+      </div>
+
+      <div class="below_hero">
+        <div class="role">
+          <h3>Role: UI/UX/Project Manager</h3>
         </div>
         <div class="project_on_social">
           <nav>
@@ -398,27 +438,29 @@
           </nav>
         </div>
       </div>
+
     </div>
     <!-- NOTE: folio item 2 ends here -->
     <!-- NOTE: folio item 3 starts here -->
     <div class="folio_3 develop">
       <div class="above_hero">
-        <div class="role">
-          <h3>User Research/UX/UI</h3>
-        </div>
-        <div class="work_number">
-          <h3>iOS & Watch OS</h3>
-        </div>
-      </div>
-      <div class="hero_image"><img alt="develop" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/develop/Develop_ios_watchos_800.png" srcset="
-        img/folio/develop/Develop_ios_watchos_800.png   600w,
-        img/folio/develop/Develop_ios_watchos_800.png   800w," />
-      </div>
-      <div class="below_hero">
         <div class="project"><a class="class2" href="develop.html">
             <h2>Develop Assistant</h2>
           </a>
         </div>
+        <div class="work_number">
+          <h2>for iOS & Watch OS</h2>
+        </div>
+      </div>
+      <div class="hero_image"><a href="develop.html"><img alt="develop" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/develop/Develop_ios_watchos_800.png" srcset="
+        img/folio/develop/Develop_ios_watchos_800.png   600w,
+        img/folio/develop/Develop_ios_watchos_800.png   800w," /></a>
+      </div>
+      <div class="below_hero">
+        <div class="role">
+          <h3>User Research/UX/UI</h3>
+        </div>
+
         <div class="project_on_social">
           <nav>
             <ul class="social">

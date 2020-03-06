@@ -74,10 +74,12 @@ body {
   font-size: 15px;
   transition: 0.4s;
 }
+
 .goals {
-  padding-right:20%;
-  padding-left:20%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
+
 .active, .accordion:hover {
   background-color: #ccc;
 }
@@ -88,17 +90,20 @@ body {
   background-color: white;
   overflow: hidden;
 }
+
 #header_icon {
   width: 10em;
   height: 10em;
   text-align: center;
 }
+
 #round_icon {
   width: 5em;
   height: 5em;
   text-align: center;
   justify-content: center;
 }
+
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
 }
@@ -145,6 +150,8 @@ body {
 .contentbox {
   padding: 5%;
   background-color: #F8F9F9;
+  background-color: #f8f9f9;
+  border: dotted 1px red;
 }
 
 .results .IA {}
@@ -183,7 +190,7 @@ h1 {
 
 h2 {
   font-family: "PT Sans";
-  font-size: 18px;
+  font-size: 21px;
   font-style: normal;
   font-variant: normal;
   color: #fff;
@@ -227,7 +234,7 @@ h6 {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 12px;
+  line-height: 14px;
   color: #575454;
   margin-block-start: .5em;
   margin-block-end: .5em;
@@ -266,6 +273,13 @@ pre {
 /* NOTE: footer style */
 footer {
   position: relative;
+}
+
+.review_tight {
+  text-align: center;
+  padding-right: 8em;
+  padding-left: 8em;
+  font-style: italic;
 }
 
 .slide_right {
@@ -331,6 +345,8 @@ a.class3:hover {
   width: 220px;
 }
 
+/* NOTE: review here */
+/* NOTE: review ends here */
 .introduction {
   padding-left: 10%;
   padding-right: 10%;
@@ -389,8 +405,8 @@ ol {
   line-height: 20px;
   color: #575454;
 }
-.user_icon
-li {
+
+.user_icon li {
   /* float: left; */
 }
 
@@ -627,31 +643,37 @@ li a {
   display: grid;
 }
 
+.standout_orange {
+  text-align: center;
+  color: #f05c38;
+  padding-right: 8em;
+  padding-left: 8em;
+  line-height: normal;
+}
+
 .project {
   justify-content: space-space-around;
   display: grid;
 }
 
 .margin20 {
-  margin: 20%
-  margin-right: 20%;
+  margin: 20% margin-right: 20%;
 }
-
 
 .project_on_social {
   justify-content: space-space-around;
   display: grid;
 }
 
-
 .app_icon {
   border-radius: 22%;
   margin: 1%;
-  width:60px;
+  width: 60px;
 }
+
 .app_icon_div {
-  width:75px;
-  text-align:center;
+  width: 75px;
+  text-align: center;
   display: center;
   margin-right: 4%;
   margin-bottom: 3%
@@ -665,23 +687,25 @@ li a {
 }
 
 .folio_image_wide {
-  padding:5%
-  text-align:center;
+  padding: 5% text-align:center;
 }
-
 
 .folio_body {
   padding-left: 20%;
   padding-right: 20%;
-  text-align:left;
+  text-align: left;
 }
+
 .space_around {
   align-content: center;
   justify-content: center;
-  display:  flex;
+  display: flex;
   text-align: center;
   flex-flow: wrap;
-  max-width: 500px:
+  max-width: auto;
+  padding-top: 2em;
+  background-color: #f8f9f9;
+  border: dotted 1px red;
 }
 
 .folio_1 {
@@ -704,8 +728,6 @@ li a {
 }
 
 article {
-
-
   padding-top: 3%;
   width: auto;
   -webkit-columns: 2 200px;
@@ -714,7 +736,6 @@ article {
 }
 
 div.circletag {
-
   width: 100px;
   height: 100px;
   background: #3C4FAF;
@@ -725,7 +746,7 @@ div.circletag {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  float:left;
+  float: left;
   display: table;
   clear: both;
   content: "";
@@ -734,7 +755,6 @@ div.circletag {
 div.circletag>img {
   max-height: 100%;
   max-width: 100%;
-
 }
 
 .article_heading {
@@ -760,11 +780,6 @@ div.circletag>img {
   border-right: solid 1px #ffffff;
   background-color: #ffffff;
 }
-
-
-
-
-
 
 /* NOTE: scripts */
 html.w-mod-js *[data-ix="work-transition"] {
@@ -856,8 +871,42 @@ html.w-mod-js *[data-ix="new-interaction"] {
         width: auto;
       }
 
+      .folio_body {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      #header_icon {
+        width: 6em;
+        height: 6em;
+        text-align: center;
+      }
+
+      #round_icon {
+        width: 4em;
+        height: 4em;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .standout_orange {
+        padding-right: 1em;
+        padding-left: 1em;
+      }
+
       .content-wrapper {
         width: 100%;
         margin-left: 0%;
         width: auto;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      .review_tight {
+        text-align: center;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-style: italic;
       }
