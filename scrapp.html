@@ -18,14 +18,18 @@
   <link href="css/style.css" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
   <link rel="icon" type="image/x-icon" href="img/logo/logo.ico">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138675712-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138675712-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-138675712-2');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138675712-2');
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 
@@ -363,7 +367,8 @@
       </div>
       <div class="introduction">
         <h5 class="introduction">Scrapp helps you donate simply, ethically, consciously.</h5>
-        <p class="introduction">Scrapp is an ethically-vetted mobile app for upcycling, recycling, and redistributing used goods. Its objective is to make donating and recycling simple and provide transparency around organizations that purport to be working in the public interest.</p>
+        <p class="introduction">Scrapp is an ethically-vetted mobile app for upcycling, recycling, and redistributing used goods. Its objective is to make donating and recycling simple and provide transparency around organizations that purport to be
+          working in the public interest.</p>
       </div>
       <br>
       <!-- NOTE: research starts here -->
@@ -429,7 +434,8 @@
             target="_blank">Planet Aid</a> is an example of this type of organization.</P>
 
         <h5><strong>Anti lgbtqi+ rhetoric</strong></h5>
-        <p>Some religious not for profits still promote an anti-lgbtqi+ agenda The Salvation Army is one example of this type of organization (<a href="https://www.vox.com/the-goods/2019/12/16/21003560/salvation-army-anti-lgbtq-controversies-donations" target="_blank">Valle 2019</a>), but there are others.</p>
+        <p>Some religious not for profits still promote an anti-lgbtqi+ agenda The Salvation Army is one example of this type of organization (<a
+            href="https://www.vox.com/the-goods/2019/12/16/21003560/salvation-army-anti-lgbtq-controversies-donations" target="_blank">Valle 2019</a>), but there are others.</p>
         <p>Scrapp wants to empower its users with the knowledge to make informed decisions about where their donations will make an impact that matters to them.</p>
       </div>
       <hr>
@@ -476,7 +482,8 @@
       </div>
       <div class="folio_body">
         <p>My team and I conducted a thorough competitive analysis to get a sense of similar apps within the same space as a proposed scrapp app.</p>
-        <p>We wanted to understand more about the current solutions for users looking for donation solutions from digital products. Having a good understanding of this initial landscape was an important benchmark because it informed the substance of our subsequent user
+        <p>We wanted to understand more about the current solutions for users looking for donation solutions from digital products. Having a good understanding of this initial landscape was an important benchmark because it informed the substance of
+          our subsequent user
           interviews.</p>
       </div>
       <div class="folio_body">
@@ -610,7 +617,8 @@
               <h6>Value</h6>
             </div>
           </div>
-          <p>Our users were primarily motivated by the need to declutter or make room for new items in their wardrobe. This primary motivation was the catalyst, but there were other contributing layers involved around guilt felt when items went to waste or landfill. In that sense, ethics were another motivating factor, particularly around the goals of the not-for-profit repurposing the goods. Finally, the value of the items was also a motivating factor for our users.</p>
+          <p>Our users were primarily motivated by the need to declutter or make room for new items in their wardrobe. This primary motivation was the catalyst, but there were other contributing layers involved around guilt felt when items went to
+            waste or landfill. In that sense, ethics were another motivating factor, particularly around the goals of the not-for-profit repurposing the goods. Finally, the value of the items was also a motivating factor for our users.</p>
         </div>
       </div>
       <hr>
@@ -647,7 +655,8 @@
               <h6>Recycle it</h6>
             </div>
           </div>
-          <p>Our users described several current solutions to their clutter woes. Often it gets hoarded or ignored until it just becomes too much. Some items are given away to friends or family. Items were left on stoops or in hallways for others to pick through and take. Sometimes items were discarded to a landfill. Sometimes goods made their way to a donation site. At times users would seek value for items that were perceived to still be "of value".</p>
+          <p>Our users described several current solutions to their clutter woes. Often it gets hoarded or ignored until it just becomes too much. Some items are given away to friends or family. Items were left on stoops or in hallways for others to
+            pick through and take. Sometimes items were discarded to a landfill. Sometimes goods made their way to a donation site. At times users would seek value for items that were perceived to still be "of value".</p>
         </div>
         <hr>
       </div>
@@ -792,7 +801,14 @@
         </div>
       </div>
       <div class="folio_body">
-        <p><img src="img/folio/scrapp/assets/personasketch.png" alt="persona sketch examples"></p>
+
+
+
+        <p style="text-align:center;"><img id="myImg" src="img/folio/scrapp/assets/personasketch.png" alt="persona sketchs" style="width:100%;max-width:500px;"></p>
+
+
+
+
         <p>Here 👆 is some insight into how we built our initial personas using the data we extrapolated and abstracted from our interviews.</p>
         <p>Our <strong>trader persona</strong> was later dropped because although some of our users expressed a desire to sell or trade their used goods, we had to prioritize and narrow the scope of our project. Scrapp is really about donating and
           recycling. There are numerous trading apps out there for users wanting to capitalize on their goods.</p>
@@ -905,16 +921,55 @@
         <h5>Current assumed journey</h5>
         <p>We assumed that donors would either drive, take public transportation, or walk to drop boxes or donation centers, leave their donations and continue on with their days. We know users are frustrated by inconvenient drop points but also by
           not knowing what donation centers accept. One interviewee expressed helplessness not knowing where goods actually end up.</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/flow3.png" alt="user flow"></p>
+
+
+
+
+
+
+
+        <p style="text-align:center;"><img class="myImg" src="img/folio/scrapp/assets/flow3.png" alt="user flow" style="width:100%;max-width:500px;"></p>
+
+
+
+
+
+
+
+
+
         <hr>
         <h5>Find a location and drop off goods</h5>
         <p>Having an app on your phone that will easily display (list and/or map) where to donate but also WHAT is accepted is key. A huge pain point for donors is not knowing what is accepted where. We also realized at this point that there are
           definitely niche donation centers. For example, some animal shelters accept used bedding and towels; textile recycling centers accept unwearable items. In this journey, the user is dropping the items.</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/flow1.png" alt="user flow"></p>
+
+
+
+        <p style="text-align:center;"><img id="myImg" src="img/folio/scrapp/assets/flow1.png" alt="user flow" style="width:100%;max-width:500px;"></p>
+
+
+
+
+
+
+
         <hr>
         <h5>Schedule a pick-up</h5>
         <p>Most pickup options are offered by donation centers that have the resources to fund pick-ups. These organizations are sometimes affiliated with a religion, which can be a deterrent to users.</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/flow2.png" alt="user flow"></p>
+        <p style="text-align: center;">
+
+
+
+          <p style="text-align:center;">
+
+            <img id="myImg" src="img/folio/scrapp/assets/flow2.png" alt="user flow" style="width:100%;max-width:500px;">
+
+          </p>
+
+
+
+
+
       </div>
       <hr>
       <!-- NOTE: user flows start here -->
@@ -1030,16 +1085,47 @@
       </div>
 
       <hr>
+      <!-- NOTE:design system starts here -->
+
+      <div class="article_heading_small">
+        <img src="img/folio/scrapp/icons/usabilitytest.svg" id="round_icon" alt="usability test icon">
+        <h5>UI elements</h5>
+      </div>
+      <div class="folio_body">
+        <p>Donation category icons</p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/category_icons.svg" alt="icons"></p>
+        <hr>
+        <p>Social icon variants</p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/Icons_social_media.svg" alt="icons"></p>
+        <hr>
+        <p>Button variants</p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/Buttons_Primary.svg" alt="buttons"></p>
+        <hr>
+        <p>Listing card examples</p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardBeaconscloset.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardHousingworks.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/Cardgowanusewaste.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardBigreuse.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardBlaclkwomensblueprint.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardOutoftheCloset.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardParkSlopewmensshelter.svg" alt="Listing card"></p>
+        <p style="text-align: center;"><img src="img/folio/scrapp/assets/CardSeanCaseyAnimalRescue.svg" alt="Listing card"></p>
+      </div>
+      <hr>
+
+      <!-- NOTE: usability testing starts here -->
       <div class="article_heading_small">
         <img src="img/folio/scrapp/icons/usabilitytest.svg" id="round_icon" alt="usability test icon">
         <h5>Usability testing</h5>
       </div>
       <div class="folio_body">
-        <p>Usability testing was a very important step in iterating on Scrapp. We presented our prototype to five users and received both positive and negative feedback in our first round of testing. This feedback encouraged us to shift some of our UI
+        <p>Usability testing was a very important step in iterating on Scrapp. We presented our prototype to five users and received both positive and negative feedback in our first round of testing. This feedback encouraged us to shift some of our
+          UI
           flow and helped us clear up some confusion in opening screens. We also had issues with our wires that we cleaned up based on user feedback.</p>
 
       </div>
       <hr>
+      <!-- NOTE: next steps starts Here -->
       <div class="article_heading_small">
         <img src="img/folio/scrapp/icons/nextsteps.svg" id="round_icon" alt="next steps icon">
         <h5>Next steps</h5>
@@ -1049,7 +1135,7 @@
         <p>You know when you think you get how people operate based on wildly inaccurate assumptions? That was definitely what happened
           to us during the discovery phase. As a group, we truly believed that people wanted to donate their goods to causes with which they are ethically aligned. We learned this is NOT the initial motivation: getting rid of items in the most
           convenient way possible is all that matters. BUT once our users realized that they have little choice about where their items end up, a perceptible shift was felt.</p>
-          <p>Our next steps will include building out more screens to focus specifically on categories of donation opportunities. We want to highlight unconsidered options for our users such as donations to animal shelters (as demonstrated in the
+        <p>Our next steps will include building out more screens to focus specifically on categories of donation opportunities. We want to highlight unconsidered options for our users such as donations to animal shelters (as demonstrated in the
           screens below). We will also continue to organize screens for best UI flow and focus on style as we head into development.</p>
 
       </div>
