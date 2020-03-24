@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<dirinfo>
+<stack version='1' expanded='false' framerate='2.0' framerateCS6='2.0' >
+<files>
+	<item key='Home.png20200324163037' />
+	<item key='Listing_camba.png20200324145208' />
+	<item key='Listing_ewaste.png20200324145146' />
+	<item key='Listing_housingworks.png20200324145259' />
+	<item key='Listing_outofthecloset.png20200324145346' />
+	<item key='Listing_seancasey.png20200324154156' />
+	<item key='Onboarding.png20200324163137' />
+	<item key='screen_camba.png20200324145028' />
+	<item key='screen_organizepickup.png20200324155551' />
+	<item key='screen_pickupaddress.png20200324162744' />
+	<item key='screen_pickupdate.png20200324155722' />
+	<item key='screen_search_results_map.png20200324094920' />
+	<item key='screen_search_results.png20200324094900' />
+	<item key='screen_search.png20200324095002' />
+</files>
+</stack>
+</dirinfo>
