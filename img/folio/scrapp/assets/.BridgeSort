@@ -1,21 +1,59 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <dirinfo>
-<stack version='1' expanded='false' framerate='2.0' framerateCS6='2.0' >
 <files>
-	<item key='Home.png20200324163037' />
-	<item key='Listing_camba.png20200324145208' />
-	<item key='Listing_ewaste.png20200324145146' />
-	<item key='Listing_housingworks.png20200324145259' />
-	<item key='Listing_outofthecloset.png20200324145346' />
-	<item key='Listing_seancasey.png20200324154156' />
-	<item key='Onboarding.png20200324163137' />
-	<item key='screen_camba.png20200324145028' />
-	<item key='screen_organizepickup.png20200324155551' />
-	<item key='screen_pickupaddress.png20200324162744' />
-	<item key='screen_pickupdate.png20200324155722' />
-	<item key='screen_search_results_map.png20200324094920' />
-	<item key='screen_search_results.png20200324094900' />
-	<item key='screen_search.png20200324095002' />
+<item key='affinity900w.gif20200302150052' />
+<item key='Buttons_Primary.svg20200318122840' />
+<item key='Card_icons.svg20200323134519' />
+<item key='CardBeaconscloset.svg20200323154420' />
+<item key='CardBigreuse.svg20200323154420' />
+<item key='CardBlaclkwomensblueprint.svg20200323150326' />
+<item key='Cardgowanusewaste.svg20200323154420' />
+<item key='CardHousingworks.svg20200323154420' />
+<item key='CardOutoftheCloset.svg20200323154420' />
+<item key='CardParkSlopewmensshelter.svg20200323150326' />
+<item key='CardSeanCaseyAnimalRescue.svg20200323150326' />
+<item key='Category_icons.svg20200323141940' />
+<item key='chart.svg20200305120544' />
+<item key='Component 166.png20200324152614' />
+<item key='currentsolitons.png20200302140244' />
+<item key='dogooder.png20200305152535' />
+<item key='flow1.jpg20200310153953' />
+<item key='flow1.png20200310155822' />
+<item key='flow2.jpg20200310153859' />
+<item key='flow2.png20200310155809' />
+<item key='flow3.jpg20200310154028' />
+<item key='flow3.png20200310155801' />
+<item key='habrookshireandhodges.png20200302131052' />
+<item key='Home_400.png20200324171241' />
+<item key='Icons_social_media.svg20200323133628' />
+<item key='Icons.svg20200317115347' />
+<item key='IMG_7310.jpg20200302150632' />
+<item key='infinitymapping1.jpg20200302150533' />
+<item key='Listing_ewaste_400.png20200324171050' />
+<item key='Listing_housingworks_400.png20200324171020' />
+<item key='Listing_outofthecloset_400.png20200324170957' />
+<item key='Listing_seancasey_400.png20200324170822' />
+<item key='lofisketch1.jpg20200310153630' />
+<item key='lofisketch1.png20200310154607' />
+<item key='lofisketch2.jpg20200310153717' />
+<item key='lofisketch2.png20200310155536' />
+<item key='miro.png20200301221315' />
+<item key='motivations.png20200302140229' />
+<item key='Onboarding_400.png20200324172833' />
+<item key='personasketch.png20200303161204' />
+<item key='sb_dropitoff.svg20200301204303' />
+<item key='sb_pickitup.svg20200301204414' />
+<item key='sb_support.svg20200301204523' />
+<item key='scrapp.svg20200310120337' />
+<item key='scrappwireframe.png20200302210754' />
+<item key='screen_camba_400.png20200324170700' />
+<item key='screen_organizepickup_400.png20200324170635' />
+<item key='screen_pickupaddress_400.png20200324170607' />
+<item key='screen_pickupdate_400.png20200324170525' />
+<item key='screen_search_400.png20200324170350' />
+<item key='screen_search_results_400.png20200324170429' />
+<item key='screen_search_results_map_400.png20200324172718' />
+<item key='team.jpg20200229005849' />
+<item key='userflow.jpg20200304223217' />
 </files>
-</stack>
 </dirinfo>
