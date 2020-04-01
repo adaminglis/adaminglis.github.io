@@ -21,7 +21,7 @@
   <!-- NOTE: External stylesheet -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="../../css/style.css" rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
-  <link rel="icon" type="image/x-icon" href="img/logo/logo.ico">
+  <link rel="icon" type="image/x-icon" href="../../img/logo/logo.ico">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138675712-2"></script>
   <script>
@@ -60,8 +60,8 @@
       <br>
       <br>
       <!-- NOTE: contact starts here -->
-      <div class="contact_container"><a class="contact_btn" href="mailto:adam@adaminglis.com?subject=Website%20Inquiry" target="_blank"><img onmouseout="this.src='img/buttons/Say_hi_button_pressed.svg'"
-            onmouseover="this.src='img/buttons/Say_hi_button.svg'" src="img/buttons/Say_hi_button_pressed.svg"></a>
+      <div class="contact_container"><a class="contact_btn" href="mailto:adam@adaminglis.com?subject=Website%20Inquiry" target="_blank"><img onmouseout="this.src='../../img/buttons/Say_hi_button_pressed.svg'"
+            onmouseover="this.src='../../img/buttons/Say_hi_button.svg'" src="../../img/buttons/Say_hi_button_pressed.svg"></a>
       </div>
       <div class="resume">
         <p>I've also got a <a href="mailto:adaminglis.design@gmail.com?subject=Resume" target="blank" class="class1">resume</a>.</p>
@@ -225,42 +225,37 @@
   </div>
   <!-- NOTE: right sidebar starts here -->
   <div class="content-wrapper">
+    <!-- NOTE: hero starts here -->
     <div class="folio_2 scrapp">
-
       <div class="above_hero">
         <div class="project">
           <h2>Scrapp</h2>
         </div>
-
         <div class="work_number">
           <h3>for iOS</h3>
         </div>
       </div>
-
       <div class="hero_image">
         <div class="w3-content w3-display-container">
-          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src=img/folio/scrapp/assets/Home.png" srcset="
-          img/folio/scrapp/assets/Home_400.png   800w," />
-          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/assets/Onboarding.png" srcset="
-          img/folio/scrapp/assets/Onboarding_400.png   800w," />
-          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/assets/Listing_outofthecloset.png" srcset="
-          img/folio/scrapp/assets/Listing_outofthecloset_400.png   800w," />
-          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/assets/screen_pickupaddress.png" srcset="
-          img/folio/scrapp/assets/screen_pickupaddress_400.png   800w," />
-          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/scrapp/assets/screen_search_results_map.png" srcset="
-          img/folio/scrapp/assets/screen_search_results_map_400.png   800w," />
-
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src=img/assets/Home.png" srcset="
+          img/assets/Home_400.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/assets/Onboarding.png" srcset="
+          img/assets/Onboarding_400.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/assets/Listing_outofthecloset.png" srcset="
+          img/assets/Listing_outofthecloset_400.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/assets/screen_pickupaddress.png" srcset="
+          img/assets/screen_pickupaddress_400.png   800w," />
+          <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/assets/screen_search_results_map.png" srcset="
+          img/assets/screen_search_results_map_400.png   800w," />
           <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
           <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
         <script>
           var slideIndex = 1;
           showDivs(slideIndex);
-
           function plusDivs(n) {
             showDivs(slideIndex += n);
           }
-
           function showDivs(n) {
             var i;
             var x = document.getElementsByClassName("mySlides");
@@ -277,98 +272,96 @@
           }
         </script>
       </div>
-
       <div class="below_hero">
-        <div class="role">
-          <h3>Role: UI/UX/Project Manager</h3>
-        </div>
-        <div class="project_on_social">
-          <nav>
-            <ul class="social">
-              <!-- NOTE: dribble starts here -->
-              <li><a class="dribbble_icon" href="https://dribbble.com/adaminglis" target="_blank"><svg class="grayscale" height="28" viewbox="0 0 29 28" width="29" xmlns="http://www.w3.org/2000/svg">
-                    <g id="Dribble active mobile">
-                      <g clip-path="url(#clip0)">
-                        <g id="Dribble">
-                          <g clip-path="url(#clip1)">
-                            <g id="Group">
-                              <path d="M23.585 3.10645C23.6575 3.16403 23.7258 3.22949 23.7978 3.28877L23.7982 3.28686C23.7326 3.22129 23.6669 3.15566 23.585 3.10645Z" fill="#FF7CB9" id="Vector"></path>
-                              <path
-                                d="M28.8892 14.2957C28.8728 14.8699 28.8236 15.4277 28.7415 15.9855L24.6837 20.1691L20.5658 26.7316C20.0572 26.9613 19.5158 27.1746 18.958 27.3387L14.8892 23.4996L14.0033 22.6628L7.67045 25.9277C7.07983 25.5668 6.50561 25.173 5.98061 24.73L4.42202 17.298L0.938477 12.7042C1.00405 12.1465 1.08608 11.605 1.20092 11.0636L7.06337 7.02773L8.31024 1.71211C8.81884 1.43315 9.36024 1.18711 9.9017 0.990234L14.8892 2.49961L16.858 3.10664L23.7977 3.28711C24.2735 3.68086 24.7494 4.10742 25.1595 4.58326L25.0938 10.4566L28.8892 14.2957Z"
-                                fill="#FA5E97" id="Vector_2"></path>
-                              <path
-                                d="M28.8896 14.2952C28.8732 14.8693 28.8241 15.4272 28.7419 15.985L24.6841 20.1686L20.5663 26.7311C20.0577 26.9607 19.5163 27.174 18.9584 27.3381L14.8896 23.499V2.49902L16.8584 3.10605L23.7982 3.28652C24.2739 3.68027 24.7498 4.10684 25.16 4.58267L25.0943 10.4561L28.8896 14.2952Z"
-                                fill="#D94F88" id="Vector_3"></path>
-                              <path d="M10.5254 10.8174C11.8706 10.5548 13.1833 10.1939 14.43 9.80019C12.7731 6.76498 10.7223 4.02514 8.31055 1.71191C4.76685 3.61498 2.07065 7.01113 1.20117 11.0634C3.80982 11.5884 7.03091 11.5229 10.5254 10.8174Z"
-                                fill="#FF7CB9" id="Vector_4"></path>
-                              <path
-                                d="M23.7984 3.28666L23.5687 4.18901C23.2078 5.63276 20.1563 7.69995 16.1531 9.19297L15.9726 9.25854C15.6281 8.6187 15.2671 7.9788 14.8898 7.37177C13.4789 5.04213 11.789 2.89291 9.90234 0.989844C11.4445 0.382813 13.1343 0 14.8898 0C18.0233 0 20.9437 1.10469 23.2734 2.8601C23.4538 2.99135 23.6344 3.12266 23.7984 3.28666Z"
-                                fill="#FF7CB9" id="Vector_5"></path>
-                              <path
-                                d="M16.6123 14.6724C16.0217 14.8857 15.4475 15.1154 14.8896 15.3779C10.1318 17.5107 6.58809 21.0545 6.03022 24.4342C6.01392 24.5326 5.99746 24.6311 5.98105 24.7295C2.91309 22.1701 0.889648 18.3146 0.889648 13.9998C0.889648 13.5568 0.906055 13.1302 0.938922 12.7037C2.23496 12.9498 3.60215 13.0482 4.88189 13.0482C7.11314 13.0482 9.22949 12.7529 10.8537 12.4248C12.2483 12.146 13.5936 11.785 14.8897 11.3748C14.9881 11.342 15.0866 11.3092 15.185 11.2764C15.71 12.3756 16.1857 13.5076 16.6123 14.6724Z"
-                                fill="#FF7CB9" id="Vector_6"></path>
-                              <path
-                                d="M18.9587 27.3383C17.679 27.7321 16.3009 28.0001 14.89 28.0001C12.2486 28.0001 9.77121 27.2071 7.67115 25.9273C7.58912 25.5336 7.58912 25.1234 7.65485 24.6969C8.08131 22.0883 11.0345 19.1352 14.89 17.1993C15.6118 16.8383 16.3666 16.4937 17.154 16.2148C18.2696 19.7258 18.8931 23.4828 18.9587 27.3383Z"
-                                fill="#FF7CB9" id="Vector_7"></path>
-                              <path d="M28.7423 15.9849C28.0533 20.792 24.8651 24.8114 20.5667 26.731C20.4518 22.9248 19.7955 19.217 18.6963 15.7224C22.3713 14.7052 25.8549 14.8201 28.7423 15.9849Z" fill="#FF637B" id="Vector_8"></path>
-                              <path d="M28.89 14.0001V14.2955C25.7565 13.1306 22.0432 13.0814 18.1713 14.1806C17.7447 12.9994 17.2525 11.851 16.7275 10.7354C19.4182 9.71816 24.4549 7.38842 25.1603 4.58301C27.4409 7.06024 28.89 10.3743 28.89 14.0001Z"
-                                fill="#FF637B" id="Vector_9"></path>
-                              <path d="M16.6123 14.6725C16.0217 14.8857 15.4475 15.1155 14.8896 15.3779V11.3748C14.9881 11.342 15.0865 11.3092 15.185 11.2764C15.71 12.3756 16.1857 13.5077 16.6123 14.6725Z" fill="#FA5E97" id="Vector_10"></path>
-                              <path d="M17.1537 16.2148C18.2693 19.7258 18.8928 23.4828 18.9583 27.3383C17.6787 27.7321 16.3006 28.0001 14.8896 28.0001V17.1993C15.6115 16.8383 16.3663 16.4938 17.1537 16.2148Z" fill="#FA5E97" id="Vector_11"></path>
-                              <path
-                                d="M15.9724 9.25859C15.6279 8.61875 15.2669 7.97885 14.8896 7.37182V0C18.0232 0 20.9436 1.10469 23.2732 2.8601C23.4537 2.99141 23.6342 3.12266 23.7982 3.28666L23.5686 4.18901C23.2077 5.63276 20.1561 7.69994 16.153 9.19297L15.9724 9.25859Z"
-                                fill="#FA5E97" id="Vector_12"></path>
-                              <path d="M28.7423 15.9849C28.0533 20.792 24.8651 24.8114 20.5667 26.731C20.4518 22.9248 19.7955 19.217 18.6963 15.7224C22.3713 14.7052 25.8549 14.8201 28.7423 15.9849Z" fill="#FA5E97" id="Vector_13"></path>
-                              <path d="M28.89 14.0001V14.2955C25.7565 13.1306 22.0432 13.0814 18.1713 14.1806C17.7447 12.9994 17.2525 11.851 16.7275 10.7354C19.4182 9.71816 24.4549 7.38842 25.1603 4.58301C27.4409 7.06024 28.89 10.3743 28.89 14.0001Z"
-                                fill="#FA5E97" id="Vector_14"></path>
-                            </g>
+      <div class="role">
+        <h3>Role: UI/UX/Project Manager</h3>
+      </div>
+      <div class="project_on_social">
+        <nav>
+          <ul class="social">
+            <!-- NOTE: dribble starts here -->
+            <li><a class="dribbble_icon" href="https://dribbble.com/adaminglis" target="_blank"><svg class="grayscale" height="28" viewbox="0 0 29 28" width="29" xmlns="http://www.w3.org/2000/svg">
+                  <g id="Dribble active mobile">
+                    <g clip-path="url(#clip0)">
+                      <g id="Dribble">
+                        <g clip-path="url(#clip1)">
+                          <g id="Group">
+                            <path d="M23.585 3.10645C23.6575 3.16403 23.7258 3.22949 23.7978 3.28877L23.7982 3.28686C23.7326 3.22129 23.6669 3.15566 23.585 3.10645Z" fill="#FF7CB9" id="Vector"></path>
+                            <path
+                              d="M28.8892 14.2957C28.8728 14.8699 28.8236 15.4277 28.7415 15.9855L24.6837 20.1691L20.5658 26.7316C20.0572 26.9613 19.5158 27.1746 18.958 27.3387L14.8892 23.4996L14.0033 22.6628L7.67045 25.9277C7.07983 25.5668 6.50561 25.173 5.98061 24.73L4.42202 17.298L0.938477 12.7042C1.00405 12.1465 1.08608 11.605 1.20092 11.0636L7.06337 7.02773L8.31024 1.71211C8.81884 1.43315 9.36024 1.18711 9.9017 0.990234L14.8892 2.49961L16.858 3.10664L23.7977 3.28711C24.2735 3.68086 24.7494 4.10742 25.1595 4.58326L25.0938 10.4566L28.8892 14.2957Z"
+                              fill="#FA5E97" id="Vector_2"></path>
+                            <path
+                              d="M28.8896 14.2952C28.8732 14.8693 28.8241 15.4272 28.7419 15.985L24.6841 20.1686L20.5663 26.7311C20.0577 26.9607 19.5163 27.174 18.9584 27.3381L14.8896 23.499V2.49902L16.8584 3.10605L23.7982 3.28652C24.2739 3.68027 24.7498 4.10684 25.16 4.58267L25.0943 10.4561L28.8896 14.2952Z"
+                              fill="#D94F88" id="Vector_3"></path>
+                            <path d="M10.5254 10.8174C11.8706 10.5548 13.1833 10.1939 14.43 9.80019C12.7731 6.76498 10.7223 4.02514 8.31055 1.71191C4.76685 3.61498 2.07065 7.01113 1.20117 11.0634C3.80982 11.5884 7.03091 11.5229 10.5254 10.8174Z"
+                              fill="#FF7CB9" id="Vector_4"></path>
+                            <path
+                              d="M23.7984 3.28666L23.5687 4.18901C23.2078 5.63276 20.1563 7.69995 16.1531 9.19297L15.9726 9.25854C15.6281 8.6187 15.2671 7.9788 14.8898 7.37177C13.4789 5.04213 11.789 2.89291 9.90234 0.989844C11.4445 0.382813 13.1343 0 14.8898 0C18.0233 0 20.9437 1.10469 23.2734 2.8601C23.4538 2.99135 23.6344 3.12266 23.7984 3.28666Z"
+                              fill="#FF7CB9" id="Vector_5"></path>
+                            <path
+                              d="M16.6123 14.6724C16.0217 14.8857 15.4475 15.1154 14.8896 15.3779C10.1318 17.5107 6.58809 21.0545 6.03022 24.4342C6.01392 24.5326 5.99746 24.6311 5.98105 24.7295C2.91309 22.1701 0.889648 18.3146 0.889648 13.9998C0.889648 13.5568 0.906055 13.1302 0.938922 12.7037C2.23496 12.9498 3.60215 13.0482 4.88189 13.0482C7.11314 13.0482 9.22949 12.7529 10.8537 12.4248C12.2483 12.146 13.5936 11.785 14.8897 11.3748C14.9881 11.342 15.0866 11.3092 15.185 11.2764C15.71 12.3756 16.1857 13.5076 16.6123 14.6724Z"
+                              fill="#FF7CB9" id="Vector_6"></path>
+                            <path
+                              d="M18.9587 27.3383C17.679 27.7321 16.3009 28.0001 14.89 28.0001C12.2486 28.0001 9.77121 27.2071 7.67115 25.9273C7.58912 25.5336 7.58912 25.1234 7.65485 24.6969C8.08131 22.0883 11.0345 19.1352 14.89 17.1993C15.6118 16.8383 16.3666 16.4937 17.154 16.2148C18.2696 19.7258 18.8931 23.4828 18.9587 27.3383Z"
+                              fill="#FF7CB9" id="Vector_7"></path>
+                            <path d="M28.7423 15.9849C28.0533 20.792 24.8651 24.8114 20.5667 26.731C20.4518 22.9248 19.7955 19.217 18.6963 15.7224C22.3713 14.7052 25.8549 14.8201 28.7423 15.9849Z" fill="#FF637B" id="Vector_8"></path>
+                            <path d="M28.89 14.0001V14.2955C25.7565 13.1306 22.0432 13.0814 18.1713 14.1806C17.7447 12.9994 17.2525 11.851 16.7275 10.7354C19.4182 9.71816 24.4549 7.38842 25.1603 4.58301C27.4409 7.06024 28.89 10.3743 28.89 14.0001Z"
+                              fill="#FF637B" id="Vector_9"></path>
+                            <path d="M16.6123 14.6725C16.0217 14.8857 15.4475 15.1155 14.8896 15.3779V11.3748C14.9881 11.342 15.0865 11.3092 15.185 11.2764C15.71 12.3756 16.1857 13.5077 16.6123 14.6725Z" fill="#FA5E97" id="Vector_10"></path>
+                            <path d="M17.1537 16.2148C18.2693 19.7258 18.8928 23.4828 18.9583 27.3383C17.6787 27.7321 16.3006 28.0001 14.8896 28.0001V17.1993C15.6115 16.8383 16.3663 16.4938 17.1537 16.2148Z" fill="#FA5E97" id="Vector_11"></path>
+                            <path
+                              d="M15.9724 9.25859C15.6279 8.61875 15.2669 7.97885 14.8896 7.37182V0C18.0232 0 20.9436 1.10469 23.2732 2.8601C23.4537 2.99141 23.6342 3.12266 23.7982 3.28666L23.5686 4.18901C23.2077 5.63276 20.1561 7.69994 16.153 9.19297L15.9724 9.25859Z"
+                              fill="#FA5E97" id="Vector_12"></path>
+                            <path d="M28.7423 15.9849C28.0533 20.792 24.8651 24.8114 20.5667 26.731C20.4518 22.9248 19.7955 19.217 18.6963 15.7224C22.3713 14.7052 25.8549 14.8201 28.7423 15.9849Z" fill="#FA5E97" id="Vector_13"></path>
+                            <path d="M28.89 14.0001V14.2955C25.7565 13.1306 22.0432 13.0814 18.1713 14.1806C17.7447 12.9994 17.2525 11.851 16.7275 10.7354C19.4182 9.71816 24.4549 7.38842 25.1603 4.58301C27.4409 7.06024 28.89 10.3743 28.89 14.0001Z"
+                              fill="#FA5E97" id="Vector_14"></path>
                           </g>
                         </g>
                       </g>
                     </g>
-                    <defs>
-                      <clippath id="clip0">
-                        <rect fill="white" height="28" width="28" x="0.889648"></rect>
-                      </clippath>
-                      <clippath id="clip1">
-                        <path d="M0.889648 0H28.8896V28H0.889648V0Z" fill="white"></path>
-                      </clippath>
-                    </defs>
-                  </svg></a>
-                <!-- NOTE: dribble ends here -->
-              </li>
-              <!-- NOTE: behance starts here -->
-              <li><a class="behance_icon" href="http://behance.com/adaminglis" target="_blank"><svg height="28" viewbox="0 0 29 28" width="29" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                      <g clip-path="url(#clip1)">
-                        <path d="M14.8896 28C22.6216 28 28.8896 21.732 28.8896 14C28.8896 6.26801 22.6216 0 14.8896 0C7.15766 0 0.889648 6.26801 0.889648 14C0.889648 21.732 7.15766 28 14.8896 28Z" fill="#4176FA"></path>
-                        <path
-                          d="M19.9089 11.5647C15.8652 11.5647 15.86 15.5931 15.86 15.6138C15.86 15.6138 15.583 19.6473 19.9089 19.6473C19.9089 19.6473 23.5166 19.8524 23.5166 16.8402H21.6641C21.6641 16.8402 21.7255 17.9742 19.9705 17.9742C19.9705 17.9742 18.118 18.0975 18.118 16.1422H23.5782C23.5782 16.1422 24.1787 11.5647 19.9089 11.5647ZM18.0973 14.7309C18.0973 14.7309 18.3232 13.1092 19.9501 13.1092C21.582 13.1092 21.5563 14.7309 21.5563 14.7309H18.0973ZM13.4689 13.6944C13.4689 13.6944 15.0751 13.5764 15.0751 11.6879C15.0751 9.80474 13.7614 8.88086 12.0936 8.88086H6.60742V19.4264H12.0931C12.0931 19.4264 15.4442 19.5292 15.4442 16.3116C15.4445 16.3116 15.5882 13.6944 13.4689 13.6944ZM9.02469 10.7538H12.0933C12.0933 10.7538 12.8375 10.7538 12.8375 11.8519C12.8375 12.95 12.4013 13.1092 11.9034 13.1092H9.02469V10.7538ZM11.9396 17.5534H9.02469V14.7309H12.0933C12.0933 14.7309 13.2071 14.7206 13.2019 16.1831C13.2019 17.4149 12.3758 17.5432 11.9396 17.5534ZM17.6406 9.50177V10.8003H21.9925V9.50177H17.6406Z"
-                          fill="#F1F2F2"></path>
-                      </g>
+                  </g>
+                  <defs>
+                    <clippath id="clip0">
+                      <rect fill="white" height="28" width="28" x="0.889648"></rect>
+                    </clippath>
+                    <clippath id="clip1">
+                      <path d="M0.889648 0H28.8896V28H0.889648V0Z" fill="white"></path>
+                    </clippath>
+                  </defs>
+                </svg></a>
+              <!-- NOTE: dribble ends here -->
+            </li>
+            <!-- NOTE: behance starts here -->
+            <li><a class="behance_icon" href="http://behance.com/adaminglis" target="_blank"><svg height="28" viewbox="0 0 29 28" width="29" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <g clip-path="url(#clip1)">
+                      <path d="M14.8896 28C22.6216 28 28.8896 21.732 28.8896 14C28.8896 6.26801 22.6216 0 14.8896 0C7.15766 0 0.889648 6.26801 0.889648 14C0.889648 21.732 7.15766 28 14.8896 28Z" fill="#4176FA"></path>
+                      <path
+                        d="M19.9089 11.5647C15.8652 11.5647 15.86 15.5931 15.86 15.6138C15.86 15.6138 15.583 19.6473 19.9089 19.6473C19.9089 19.6473 23.5166 19.8524 23.5166 16.8402H21.6641C21.6641 16.8402 21.7255 17.9742 19.9705 17.9742C19.9705 17.9742 18.118 18.0975 18.118 16.1422H23.5782C23.5782 16.1422 24.1787 11.5647 19.9089 11.5647ZM18.0973 14.7309C18.0973 14.7309 18.3232 13.1092 19.9501 13.1092C21.582 13.1092 21.5563 14.7309 21.5563 14.7309H18.0973ZM13.4689 13.6944C13.4689 13.6944 15.0751 13.5764 15.0751 11.6879C15.0751 9.80474 13.7614 8.88086 12.0936 8.88086H6.60742V19.4264H12.0931C12.0931 19.4264 15.4442 19.5292 15.4442 16.3116C15.4445 16.3116 15.5882 13.6944 13.4689 13.6944ZM9.02469 10.7538H12.0933C12.0933 10.7538 12.8375 10.7538 12.8375 11.8519C12.8375 12.95 12.4013 13.1092 11.9034 13.1092H9.02469V10.7538ZM11.9396 17.5534H9.02469V14.7309H12.0933C12.0933 14.7309 13.2071 14.7206 13.2019 16.1831C13.2019 17.4149 12.3758 17.5432 11.9396 17.5534ZM17.6406 9.50177V10.8003H21.9925V9.50177H17.6406Z"
+                        fill="#F1F2F2"></path>
                     </g>
-                    <defs>
-                      <clippath id="clip0">
-                        <rect fill="white" height="28" width="28" x="0.889648"></rect>
-                      </clippath>
-                      <clippath id="clip1">
-                        <path d="M0.889648 0H28.8896V28H0.889648V0Z" fill="white"></path>
-                      </clippath>
-                    </defs>
-                  </svg></a>
-              </li>
-              <!-- NOTE: behance ends here -->
-            </ul>
-          </nav>
-        </div>
+                  </g>
+                  <defs>
+                    <clippath id="clip0">
+                      <rect fill="white" height="28" width="28" x="0.889648"></rect>
+                    </clippath>
+                    <clippath id="clip1">
+                      <path d="M0.889648 0H28.8896V28H0.889648V0Z" fill="white"></path>
+                    </clippath>
+                  </defs>
+                </svg></a>
+            </li>
+            <!-- NOTE: behance ends here -->
+          </ul>
+        </nav>
       </div>
-
+    </div>
     </div>
     <!-- NOTE: hero item ends here -->
     <!-- NOTE: case study starts here -->
     <div class="case_study">
       <div class="article_heading">
-        <img src="img/folio/scrapp/assets/scrapp.svg" alt="scrapp logo" height="100px;">
+        <img src="img/assets/scrapp.svg" alt="scrapp logo" height="100px;">
 
       </div>
       <div class="introduction">
@@ -380,7 +373,7 @@
       <!-- NOTE: research starts here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/projectoutline.svg" alt="Project outline" id="header_icon">
+          <img src="img/icons/projectoutline.svg" alt="Project outline" id="header_icon">
           <h1 style="color:#ffffff;">Project outline</h1>
         </div>
       </div>
@@ -398,7 +391,7 @@
 
         <div class="contentbox">
           <h5><strong>Research question</strong></h5>
-          <img src="img/folio/scrapp/icons/search.svg" width="50px" align="right" alt="Search icon">
+          <img src="img/icons/search.svg" width="50px" align="right" alt="Search icon">
           <p>How might we make it easier to donate clothes and be more intentional about where they end up?</p>
         </div>
 
@@ -414,13 +407,13 @@
       <!-- NOTE: Competitive analysis starts here  -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img id="header_icon" src="img/folio/scrapp/icons/outline.svg" alt="Competitive analysis icon">
+          <img id="header_icon" src="img/icons/outline.svg" alt="Competitive analysis icon">
           <h1 style="color:#ffffff;">Competitive analysis and generative research</h1>
         </div>
       </div>
       <!-- NOTE: background starts here -->
       <div class="article_heading_small">
-        <img id="round_icon" src="img/folio/scrapp/icons/findings.svg" alt="Background icon">
+        <img id="round_icon" src="img/icons/findings.svg" alt="Background icon">
         <h5>Background</h5>
         <br>
       </div>
@@ -430,7 +423,7 @@
         <h5><strong>Environmental impact</strong></h5>
         <p>With the mismanagement of these used textiles also comes a significant <strong>environmental impact</strong>. The recycling rate for all textiles in the United States is about 15 percent. For textiles in clothing and footwear, it's even
           lower: 13.6 percent.</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/chart.svg" alt="chart"></p>
+        <p style="text-align: center;"><img src="img/assets/chart.svg" alt="chart"></p>
         <h6>Data sources: American Apparel and Footwear Association, International Trade Commission, the U.S. Department of Commerce's Office of Textiles and Apparel, and the Council for Textile Recycling. Infographic source:
           <a href="https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/textiles-material-specific-data" target="_blank"> United States EPA</a></h6>
 
@@ -447,7 +440,7 @@
       <hr>
       <div class="article_heading_small">
         <div>
-          <img src="img/folio/scrapp/icons/litreview.svg" id="round_icon" alt="Literature review">
+          <img src="img/icons/litreview.svg" id="round_icon" alt="Literature review">
           <h5>Literature review</h5>
         </div>
       </div>
@@ -459,13 +452,13 @@
         <div class="folio_body user_icons">
           <div class="space_around" style="border: none; background-color: white;">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/jeans.svg" alt="Jeans">
+              <img class="user_icon" src="img/illustrations/jeans.svg" alt="Jeans">
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/mittens.svg" alt="Mittens">
+              <img class="user_icon" src="img/illustrations/mittens.svg" alt="Mittens">
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/tie.svg" alt="Neck tie">
+              <img class="user_icon" src="img/illustrations/tie.svg" alt="Neck tie">
             </div>
           </div>
         </div>
@@ -476,13 +469,13 @@
           <p>This critical insight was the first indication that we had to first design a product that made the process of donating EASY. <strong>Our hypothesis:</strong> if we can bring people on-board with convenience — and we can meet that need
             — we will have a
             platform to use to also inspire them to donate more consciously.</p>
-          <p><img class="" src="img/folio/scrapp/assets/habrookshireandhodges.png" alt="Bargaining process"></p>
+          <p><img class="" src="img/assets/habrookshireandhodges.png" alt="Bargaining process"></p>
           <h6>👆The user's bargaining process when they are deciding which clothes to keep and what to ditch.</h6>
       </div>
       <hr>
       <!-- NOTE: Competitor apps starts here -->
       <div class="article_heading_small">
-        <img id="round_icon" src="img/folio/scrapp/icons/apps.svg">
+        <img id="round_icon" src="img/icons/apps.svg">
         <h5>Competitor apps</h5>
         <br>
       </div>
@@ -495,43 +488,43 @@
       <div class="folio_body">
         <div class="space_around">
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/giveit.png" alt="Giveit - Free Donation Pick Up icon">
+            <img class="app_icon" src="img/app_icons/giveit.png" alt="Giveit - Free Donation Pick Up icon">
             <h6>Giveit - Free Donation Pick Up</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/communitythrift.png" alt="Community Thrift icon">
+            <img class="app_icon" src="img/app_icons/communitythrift.png" alt="Community Thrift icon">
             <h6>Community Thrift</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/re-use.png" alt="Forward: Re-use for charity icon">
+            <img class="app_icon" src="img/app_icons/re-use.png" alt="Forward: Re-use for charity icon">
             <h6>Forward: Re-use for charity</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/salvos.png" alt="Salvation Army Family Store icon">
+            <img class="app_icon" src="img/app_icons/salvos.png" alt="Salvation Army Family Store icon">
             <h6>Salvation Army Family Store</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/goodwill.png" alt="Goodwill Mobile App icon">
+            <img class="app_icon" src="img/app_icons/goodwill.png" alt="Goodwill Mobile App icon">
             <h6>Goodwill Mobile App</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/donatenyc.png" alt="donateNYC icon">
+            <img class="app_icon" src="img/app_icons/donatenyc.png" alt="donateNYC icon">
             <h6>donateNYC</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/googlemaps.png" alt="Google Maps icon">
+            <img class="app_icon" src="img/app_icons/googlemaps.png" alt="Google Maps icon">
             <h6>Google Maps</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/foursquare.png" alt="Foursquare icon">
+            <img class="app_icon" src="img/app_icons/foursquare.png" alt="Foursquare icon">
             <h6>Foursquare</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/gofundme.png" alt="GoFundMe icon">
+            <img class="app_icon" src="img/app_icons/gofundme.png" alt="GoFundMe icon">
             <h6>GoFundMe</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/scrapp/app_icons/yelp.png" alt="Yelp icon">
+            <img class="app_icon" src="img/app_icons/yelp.png" alt="Yelp icon">
             <h6>Yelp</h6>
           </div>
         </div>
@@ -540,7 +533,7 @@
       </div>
       <br>
       <div class="article_heading_small">
-        <img id="round_icon" src="img/folio/scrapp/icons/apps.svg" alt="feedback icon">
+        <img id="round_icon" src="img/icons/apps.svg" alt="feedback icon">
         <h5>Review of feedback left online</h5>
         <br>
       </div>
@@ -549,17 +542,17 @@
         <h5 class="standout_orange">Much of what we discovered online mirrored the views expressed during our user interviews.</h5>
         <p>Online, reviewers often voiced frustration about the lack of information regarding what donation sites did and did not accept. One reviewer from Brooklyn said of a local Salvation Army drop off point:
           <p />
-          <p style="text-align:center;"><img src="img/folio/scrapp/personas/004-woman-12.svg" id="round_icon" alt="persona"></p>
+          <p style="text-align:center;"><img src="img/personas/004-woman-12.svg" id="round_icon" alt="persona"></p>
           <p class="review_tight">"My items were too heavy to carry on the subway so I paid $20 to uber down to the donation center to donate clothing only to find they couldn't
             accept any more donations. This should be advertised online so I wouldn't have wasted money trying to give a donation that wasn't accepted. Very disappointing. Defeats the point of donating."</h5>
 
-            <p style="text-align:center;"><img src="img/folio/scrapp/personas/001-man-13.svg" id="round_icon" alt="persona"></p>
+            <p style="text-align:center;"><img src="img/personas/001-man-13.svg" id="round_icon" alt="persona"></p>
             <p class="review_tight">"Donations are refused an hour before closing... don’t come!", <span style="font-style: normal;"> another user wrote.</span></h6>
       </div>
       <!-- NOTE: interviews start here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/interview.svg" id="header_icon" alt="interviews icon">
+          <img src="img/folio/interview.svg" id="header_icon" alt="interviews icon">
           <h1 style="color:#ffffff;">Interviews</h1>
         </div>
       </div>
@@ -569,57 +562,57 @@
       </div>
       <!-- NOTE: Synthesis starts here -->
       <div class="article_heading" style="background-color:#f05c38;">
-        <img src="img/folio/scrapp/icons/synthesis.svg" id="header_icon" alt="synthesis icon">
+        <img src="img/folio/synthesis.svg" id="header_icon" alt="synthesis icon">
         <h1 style="color:#ffffff;">Synthesis</h1>
       </div>
       <div class="article_heading_small">
         <div>
-          <img src="img/folio/scrapp/icons/affinitymap.svg" id="round_icon" alt="affinity mapping icon">
+          <img src="img/icons/affinitymap.svg" id="round_icon" alt="affinity mapping icon">
           <h5>Affinity mapping</h5>
         </div>
       </div>
       <div class="folio_body">
-        <p style="text-align:center;"><img src="img/folio/scrapp/assets/IMG_7310.jpg" alt="affinity mapping exercise"></p>
+        <p style="text-align:center;"><img src="img/assets/IMG_7310.jpg" alt="affinity mapping exercise"></p>
 
         <artice>
           <p>After transcribing and analyzing our first round of interviews, we did several affinity-mapping exercises to identify and qualify the sub-themes that began to emerge within top-level categories.</p>
           <p>The data we captured revealed insight into our user's demographics, motivations, pain points, current solutions, likes, and needs.<p>
               </article>
 
-              <p style="text-align:center;"><img src="img/folio/scrapp/assets/affinity900w.gif" alt="affinity map slideshow"></p>
+              <p style="text-align:center;"><img src="img/assets/affinity900w.gif" alt="affinity map slideshow"></p>
       </div>
       <!-- NOTE: findings start here -->
       <div class="article_heading findings" style="background-color:#f05c38;">
-        <img src="img/folio/scrapp/icons/findings.svg" id="header_icon" alt="findings icon">
+        <img src="img/icons/findings.svg" id="header_icon" alt="findings icon">
         <h1 style="color:#ffffff;">Findings</h1>
       </div>
       <div class="article_heading_small" style="text-align:center;">
         <h5><strong>Here's what we learned about our users from our interviews</strong></h5>
         <br>
         <!-- NOTE: motivations start here -->
-        <img id="round_icon" src="img/folio/scrapp/icons/motivation.svg" alt="motivations icon">
+        <img id="round_icon" src="img/icons/motivation.svg" alt="motivations icon">
         <h5>Their motivations</h5>
         <br>
         <div class="folio_body user_icons motivations">
           <div class="space_around">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/vacuum.svg" alt="decluttering">
+              <img class="user_icon" src="img/illustrations/vacuum.svg" alt="decluttering">
               <h6>Decluttering</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/ethics.svg" alt="ethics">
+              <img class="user_icon" src="img/illustrations/ethics.svg" alt="ethics">
               <h6>Ethics</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/help.svg" alt="giving back">
+              <img class="user_icon" src="img/illustrations/help.svg" alt="giving back">
               <h6>Giving back</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/guilt.svg" alt="guilt">
+              <img class="user_icon" src="img/illustrations/guilt.svg" alt="guilt">
               <h6>Guilt</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/overpriced.svg" alt="value">
+              <img class="user_icon" src="img/illustrations/overpriced.svg" alt="value">
               <h6>Value</h6>
             </div>
           </div>
@@ -630,34 +623,34 @@
       <hr>
       <!-- NOTE: current solutions start here -->
       <div class="article_heading_small current_solutions" style="text-align:center;">
-        <img id="round_icon" src="img/folio/scrapp/icons/solution.svg" alt="solution icon">
+        <img id="round_icon" src="img/icons/solution.svg" alt="solution icon">
         <h5>Their current solutions</h5>
         <br>
 
         <div class="folio_body user_icons">
           <div class="space_around">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/storage.svg" alt="hoard it">
+              <img class="user_icon" src="img/illustrations/storage.svg" alt="hoard it">
               <h6>Hoard it or ignore it</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/giveup.svg" alt="give it away">
+              <img class="user_icon" src="img/illustrations/giveup.svg" alt="give it away">
               <h6>Give it away</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/landfill.svg" alt="throw it away">
+              <img class="user_icon" src="img/illustrations/landfill.svg" alt="throw it away">
               <h6>Throw it away</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/selling.svg" alt="donate it">
+              <img class="user_icon" src="img/illustrations/selling.svg" alt="donate it">
               <h6>Donate it</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/investor.svg" alt="seek value">
+              <img class="user_icon" src="img/illustrations/investor.svg" alt="seek value">
               <h6>Seek value or sell it</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/arrow.svg" alt="recycle it">
+              <img class="user_icon" src="img/illustrations/arrow.svg" alt="recycle it">
               <h6>Recycle it</h6>
             </div>
           </div>
@@ -668,26 +661,26 @@
       </div>
       <!-- NOTE: pain points start here -->
       <div class="article_heading_small pain_points" style="text-align:center;">
-        <img id="round_icon" src="img/folio/scrapp/icons/painpoints.svg" alt="pain points icon">
+        <img id="round_icon" src="img/icons/painpoints.svg" alt="pain points icon">
         <h5>Their pain points</strong></h5>
         <br>
       </div>
       <div class="folio_body user_icons">
         <div class="space_around">
           <div class="app_icon_div">
-            <img class="user_icon" src="img/folio/scrapp/illustrations/map.svg" alt="map">
+            <img class="user_icon" src="img/illustrations/map.svg" alt="map">
             <h6>Inconvenience around donation process and nearby donation sites</h6>
           </div>
           <div class="app_icon_div">
-            <img class="user_icon" src="img/folio/scrapp/illustrations/jigsaw.svg" alt="knowledge gap">
+            <img class="user_icon" src="img/illustrations/jigsaw.svg" alt="knowledge gap">
             <h6>Knowledge gaps around the donation process</h6>
           </div>
           <div class="app_icon_div">
-            <img class="user_icon" src="img/folio/scrapp/illustrations/yes.svg" alt="selective">
+            <img class="user_icon" src="img/illustrations/yes.svg" alt="selective">
             <h6>Donation sites only take certain types of items</h6>
           </div>
           <div class="app_icon_div">
-            <img class="user_icon" src="img/folio/scrapp/illustrations/lgbt.svg" alt="conflict of interest">
+            <img class="user_icon" src="img/illustrations/lgbt.svg" alt="conflict of interest">
             <h6>Conflicts of interest with unethical charity (ie: some are anti LGBT)</h6>
           </div>
         </div>
@@ -697,33 +690,33 @@
       <hr>
       <!-- NOTE: what they love starts here -->
       <div class="article_heading_small" style="text-align:center;">
-        <img id="round_icon" src="img/folio/scrapp/icons/love.svg" alt="love icon">
+        <img id="round_icon" src="img/icons/love.svg" alt="love icon">
         <h5>What they love</h5>
         <br>
         <div class="folio_body user_icons">
           <div class="space_around">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/vacuum.svg" alt="decluttering">
+              <img class="user_icon" src="img/illustrations/vacuum.svg" alt="decluttering">
               <h6>Decluttering</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/tree.svg" alt="The environment">
+              <img class="user_icon" src="img/illustrations/tree.svg" alt="The environment">
               <h6>The environment</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/helpinghands.svg" alt="social impact">
+              <img class="user_icon" src="img/illustrations/helpinghands.svg" alt="social impact">
               <h6>Social impact</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/investor.svg" alt="Financial return">
+              <img class="user_icon" src="img/illustrations/investor.svg" alt="Financial return">
               <h6>Financial return</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/map.svg" alt="convenience">
+              <img class="user_icon" src="img/illustrations/map.svg" alt="convenience">
               <h6>Convenience</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/discover.svg" alt="discovery">
+              <img class="user_icon" src="img/illustrations/discover.svg" alt="discovery">
               <h6>Discovery</h6>
             </div>
           </div>
@@ -732,25 +725,25 @@
         <hr>
         <!-- NOTE: what they need starts here -->
         <div class="article_heading_small" style="text-align:center;">
-          <img id="round_icon" src="img/folio/scrapp/icons/needs.svg" alt="needs icon">
+          <img id="round_icon" src="img/icons/needs.svg" alt="needs icon">
           <h5>What they need</h5>
           <br>
           <div class="folio_body user_icons">
             <div class="space_around">
               <div class="app_icon_div">
-                <img class="user_icon" src="img/folio/scrapp/illustrations/map.svg" alt="convenience">
+                <img class="user_icon" src="img/illustrations/map.svg" alt="convenience">
                 <h6>Convenience (overwhelmingly)</h6>
               </div>
               <div class="app_icon_div">
-                <img class="user_icon" src="img/folio/scrapp/illustrations/investor.svg" alt="incentive">
+                <img class="user_icon" src="img/illustrations/investor.svg" alt="incentive">
                 <h6>An incentive</h6>
               </div>
               <div class="app_icon_div">
-                <img class="user_icon" src="img/folio/scrapp/illustrations/help2.svg" alt="a good cause">
+                <img class="user_icon" src="img/illustrations/help2.svg" alt="a good cause">
                 <h6>A good cause</h6>
               </div>
               <div class="app_icon_div">
-                <img class="user_icon" src="img/folio/scrapp/illustrations/information.svg" alt="informative">
+                <img class="user_icon" src="img/illustrations/information.svg" alt="informative">
                 <h6>Information</h6>
               </div>
             </div>
@@ -766,21 +759,21 @@
       <!-- NOTE: designing collaboratively starts here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/collaboration.svg" id="header_icon" alt="designing collaboratively">
+          <img src="img/icons/collaboration.svg" id="header_icon" alt="designing collaboratively">
           <h1 style="color:#ffffff;">Designing collaboratively</h1>
         </div>
       </div>
       <div class="article_heading_small">
         <div>
-          <img src="img/folio/scrapp/icons/design.svg" id="round_icon" alt="design tools">
+          <img src="img/icons/design.svg" id="round_icon" alt="design tools">
           <h5>Design tools</h5>
         </div>
       </div>
       <div class="folio_body">
 
-        <p><img src="img/folio/scrapp/assets/miro.png" alt="Miro screenshot"></p>
+        <p><img src="img/assets/miro.png" alt="Miro screenshot"></p>
         <p>We used <strong>Miro</strong> 👆to work on scrapp collaboratively.</p>
-        <p><img src="img/folio/scrapp/assets/scrappwireframe.png" alt="Figma screenshot"></p>
+        <p><img src="img/assets/scrappwireframe.png" alt="Figma screenshot"></p>
         <p>We used <strong>Figma</strong> 👆to build and test our prototype. Figma is my design tool of choice, especially when working with teams, because of its multiplayer/collaborative functionality. It helped us iterate quickly and get
           work done while in the same room, and while working remotely.</p>
       </div>
@@ -792,7 +785,7 @@
       <!-- NOTE: Personas start here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/personas.svg" id="header_icon" alt="personas icon">
+          <img src="img/icons/personas.svg" id="header_icon" alt="personas icon">
           <h1 style="color:#ffffff;">Personas</h1>
         </div>
       </div>
@@ -802,7 +795,7 @@
       <!-- NOTE: persona sketches start here -->
       <div class="article_heading_small">
         <div>
-          <img src="img/folio/scrapp/icons/personas.svg" id="round_icon" alt="persona sketch icon">
+          <img src="img/icons/personas.svg" id="round_icon" alt="persona sketch icon">
           <h5>Persona sketches</h5>
         </div>
       </div>
@@ -810,7 +803,7 @@
 
 
 
-        <p style="text-align:center;"><img id="myImg" src="img/folio/scrapp/assets/personasketch.png" alt="persona sketchs" style="width:100%;max-width:500px;"></p>
+        <p style="text-align:center;"><img id="myImg" src="img/assets/personasketch.png" alt="persona sketchs" style="width:100%;max-width:500px;"></p>
 
 
 
@@ -826,7 +819,7 @@
       <!-- NOTE: persona starts here -->
       <div class="article_heading_small">
         <div>
-          <img src="img/folio/scrapp/icons/personas.svg" id="round_icon" alt="persona icon">
+          <img src="img/icons/personas.svg" id="round_icon" alt="persona icon">
           <h5>Finalized personas</h5>
         </div>
       </div>
@@ -837,7 +830,7 @@
       <div class="folio_body gioh">
         <article>
           <section>
-            <img src="img/folio/scrapp/personas/gioh.svg" id="persona" alt="Gioh persona">
+            <img src="img/personas/gioh.svg" id="persona" alt="Gioh persona">
             <h1>Gioh</h1>
             <h5>Get it out of here</h5>
             <hr>
@@ -858,7 +851,7 @@
       <div class="folio_body environmentalist">
         <article>
           </section>
-          <img src="img/folio/scrapp/personas/doff.svg" id="persona" alt="Doff persona">
+          <img src="img/personas/doff.svg" id="persona" alt="Doff persona">
           <section>
             <h1>Doff</h1>
             <h5>Drop it off</h5>
@@ -887,7 +880,7 @@
 
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/IA.svg" id="header_icon" alt="IA icon">
+          <img src="img/icons/IA.svg" id="header_icon" alt="IA icon">
           <h1 style="color:#ffffff;">Information Architecture</h1>
         </div>
       </div>
@@ -895,7 +888,7 @@
       <!-- NOTE: user journey starts here -->
 
       <div class="article_heading_small">
-        <img src="img/folio/scrapp/icons/IA.svg" id="round_icon" alt="IA icon">
+        <img src="img/icons/IA.svg" id="round_icon" alt="IA icon">
         <h5>User journey sketches</h5>
       </div>
       <div class="folio_body">
@@ -909,13 +902,13 @@
         <div class="folio_body user_icons">
           <div class="space_around" style="border: none; background-color: white;">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/boot-2.svg" alt="boot">
+              <img class="user_icon" src="img/illustrations/boot-2.svg" alt="boot">
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/jacket-1.svg" alt="jacket">
+              <img class="user_icon" src="img/illustrations/jacket-1.svg" alt="jacket">
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/pullover.svg" alt="pullover">
+              <img class="user_icon" src="img/illustrations/pullover.svg" alt="pullover">
             </div>
           </div>
         </div>
@@ -934,7 +927,7 @@
 
 
 
-        <p style="text-align:center;"><img class="myImg" src="img/folio/scrapp/assets/flow3.png" alt="user flow" style="width:100%;max-width:500px;"></p>
+        <p style="text-align:center;"><img class="myImg" src="img/assets/flow3.png" alt="user flow" style="width:100%;max-width:500px;"></p>
 
 
 
@@ -951,7 +944,7 @@
 
 
 
-        <p style="text-align:center;"><img id="myImg" src="img/folio/scrapp/assets/flow1.png" alt="user flow" style="width:100%;max-width:500px;"></p>
+        <p style="text-align:center;"><img id="myImg" src="img/assets/flow1.png" alt="user flow" style="width:100%;max-width:500px;"></p>
 
 
 
@@ -968,7 +961,7 @@
 
           <p style="text-align:center;">
 
-            <img id="myImg" src="img/folio/scrapp/assets/flow2.png" alt="user flow" style="width:100%;max-width:500px;">
+            <img id="myImg" src="img/assets/flow2.png" alt="user flow" style="width:100%;max-width:500px;">
 
           </p>
 
@@ -980,7 +973,7 @@
       <hr>
       <!-- NOTE: user flows start here -->
       <div class="article_heading_small">
-        <img src="img/folio/scrapp/icons/IA.svg" id="round_icon">
+        <img src="img/icons/IA.svg" id="round_icon">
         <h5>User flow scenario</h5>
       </div>
 
@@ -994,59 +987,59 @@
         <div class="folio_body user_icons">
           <div class="space_around" style="border: none; background-color: white;">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/socks.svg" alt="socks">
+              <img class="user_icon" src="img/illustrations/socks.svg" alt="socks">
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/skirt.svg" alt="skirt">
+              <img class="user_icon" src="img/illustrations/skirt.svg" alt="skirt">
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/scrapp/illustrations/vest.svg" alt="vest">
+              <img class="user_icon" src="img/illustrations/vest.svg" alt="vest">
             </div>
           </div>
         </div>
 
         <p><em>Schedule a pick-up or find a donation site</em></p>
         <p>Find a nearby drop off point and take your donation items in-person. Find out exactly who takes what, and what the organization stands for. Don't have time to drop the donation off? Schedule a pick-up instead. </p>
-        <p><img src="img/folio/scrapp/assets/dogooder.png"></p>
+        <p><img src="img/assets/dogooder.png"></p>
         <p>👇 Below offers some insight into how we initially planned out our early user flows with our original four personas</p>
-        <p><img src="img/folio/scrapp/assets/userflow.jpg"></p>
+        <p><img src="img/assets/userflow.jpg"></p>
         <hr>
       </div>
       <!-- NOTE: Service blueprint starts here  -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/serviceblueprint.svg" id="header_icon" alt="service blueprint icon">
+          <img src="img/icons/serviceblueprint.svg" id="header_icon" alt="service blueprint icon">
           <h1 style="color:#ffffff;">Service blueprint</h1>
         </div>
       </div>
       <!-- NOTE: donate in person starts here -->
       <div class="folio_body">
         <div class="article_heading_small">
-          <img src="img/folio/scrapp/icons/donateinperson.svg" id="round_icon" alt="donate in person icon">
+          <img src="img/icons/donateinperson.svg" id="round_icon" alt="donate in person icon">
           <h5>Donate in person</h5>
         </div>
-        <img src="img/folio/scrapp/personas/doff.svg" id="round_icon" alt="Doff persona">
+        <img src="img/personas/doff.svg" id="round_icon" alt="Doff persona">
 
         <h1>Doff</h1>
         <p><strong>Drop it off</strong></p>
 
         <p><em>Support community organizations directly.</em></p>
         <p>Find a nearby drop off point and take your donation items in-person. Find out exactly who takes what, and what the organization stands for.</p>
-        <p><img src="img/folio/scrapp/assets/sb_dropitoff.svg" alt="service blueprint: drop it off"></p>
+        <p><img src="img/assets/sb_dropitoff.svg" alt="service blueprint: drop it off"></p>
       </div>
       <hr>
       <!-- NOTE: scrap picks ot up starts here -->
       <div class="folio_body">
         <div class="article_heading_small">
-          <img src="img/folio/scrapp/icons/pickup.svg" id="round_icon" alt="pick it up icon">
+          <img src="img/icons/pickup.svg" id="round_icon" alt="pick it up icon">
           <h5>We pick it up</h5>
         </div>
         <div>
-          <img src="img/folio/scrapp/personas/gioh.svg" id="round_icon" alt="Gioh persona">
+          <img src="img/personas/gioh.svg" id="round_icon" alt="Gioh persona">
           <h1>Gioh</h1>
           <p><strong>Get it out of here</strong></p>
           <p><em>Logged in user with profile and preferences preset</em></p>
-          <p><img src="img/folio/scrapp/assets/sb_pickitup.svg" alt="Service blueprint: we pick it up"></p>
+          <p><img src="img/assets/sb_pickitup.svg" alt="Service blueprint: we pick it up"></p>
           <p>We come and pick it up and take it away. It goes to our facility where it gets sorted. It is then sold to a third party or other second-hand good dealers. Profit goes directly to your elected cause/s per your profile settings.</p>
         </div>
       </div>
@@ -1055,12 +1048,12 @@
       <!-- NOTE: prototype starts here -->
       <div class="article_heading" style="background-color:#f05c38;">
         <div>
-          <img src="img/folio/scrapp/icons/prototype.svg" id="header_icon" alt="prototype icon">
+          <img src="img/icons/prototype.svg" id="header_icon" alt="prototype icon">
           <h1 style="color:#ffffff;">Prototype</h1>
         </div>
       </div>
       <div class="article_heading_small">
-        <img src="img/folio/scrapp/icons/lofiproto.svg" id="round_icon" alt="lofi proto icon">
+        <img src="img/icons/lofiproto.svg" id="round_icon" alt="lofi proto icon">
         <h5>Initial sketches</h5>
       </div>
       <div class="folio_body">
@@ -1070,12 +1063,12 @@
           immediately or if the app would be stickier if we allowed users to
           browse without commitment. We discussed various layouts for the
           map page and how much information we include. </p>
-        <p><img src="img/folio/scrapp/assets/lofisketch1.png" alt="lofi sketch"></p>
-        <p><img src="img/folio/scrapp/assets/lofisketch2.png" alt="lofi sketch"></p>
+        <p><img src="img/assets/lofisketch1.png" alt="lofi sketch"></p>
+        <p><img src="img/assets/lofisketch2.png" alt="lofi sketch"></p>
       </div>
       <hr>
       <div class="article_heading_small">
-        <img src="img/folio/scrapp/icons/wireframe.svg" id="round_icon" alt="wireframe icon">
+        <img src="img/icons/wireframe.svg" id="round_icon" alt="wireframe icon">
         <h5>Wireframe</h5>
       </div>
       <div class="folio_body">
@@ -1086,7 +1079,7 @@
       </div>
       <div class="folio_image_wide">
 
-        <p><img src="img/folio/scrapp/assets/scrappwireframe.png" alt="wireframe"></p>
+        <p><img src="img/assets/scrappwireframe.png" alt="wireframe"></p>
 
       </div>
 
@@ -1094,18 +1087,18 @@
       <!-- NOTE:design system starts here -->
 
       <div class="article_heading_small">
-        <img src="img/folio/scrapp/icons/usabilitytest.svg" id="round_icon" alt="usability test icon">
+        <img src="img/icons/usabilitytest.svg" id="round_icon" alt="usability test icon">
         <h5>UI elements</h5>
       </div>
       <div class="folio_body">
         <p>Donation category icons</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/Category_icons.svg" alt="icons"></p>
+        <p style="text-align: center;"><img src="img/assets/Category_icons.svg" alt="icons"></p>
         <hr>
         <p>Social icon variants</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/Icons_social_media.svg" alt="icons"></p>
+        <p style="text-align: center;"><img src="img/assets/Icons_social_media.svg" alt="icons"></p>
         <hr>
         <p>Button variants</p>
-        <p style="text-align: center;"><img src="img/folio/scrapp/assets/Buttons_Primary.svg" alt="buttons"></p>
+        <p style="text-align: center;"><img src="img/assets/Buttons_Primary.svg" alt="buttons"></p>
         <hr>
       </div>
       <div class="folio_body">
@@ -1115,17 +1108,17 @@
 
 
       <p style="text-align: center;">
-        <img src="img/folio/scrapp/assets/Home_400.png" alt="Screen - Home" class="screen">
-        <img src="img/folio/scrapp/assets/Onboarding_400.png" alt="Screen - Onboarding" class="screen">
+        <img src="img/assets/Home_400.png" alt="Screen - Home" class="screen">
+        <img src="img/assets/Onboarding_400.png" alt="Screen - Onboarding" class="screen">
       </p>
       <div class="folio_body">
         <hr>
         <p>Search</p>
       </div>
       <p style="text-align: center;">
-        <img src="img/folio/scrapp/assets/screen_search_400.png" alt="Screen - search" class="screen">
-        <img src="img/folio/scrapp/assets/screen_search_results_400.png" alt="Screen - search results" class="screen">
-        <img src="img/folio/scrapp/assets/screen_search_results_map_400.png" alt="Screen - search results with map" class="screen">
+        <img src="img/assets/screen_search_400.png" alt="Screen - search" class="screen">
+        <img src="img/assets/screen_search_results_400.png" alt="Screen - search results" class="screen">
+        <img src="img/assets/screen_search_results_map_400.png" alt="Screen - search results with map" class="screen">
       </p>
     </div>
     <div class="folio_body">
@@ -1133,33 +1126,33 @@
       <p>Listings</p>
     </div>
     <p style="text-align: center;">
-      <img src="img/folio/scrapp/assets/Listing_ewaste_400.png" alt="Screen - Gowanus E-Waste" class="screen">
-      <img src="img/folio/scrapp/assets/Listing_outofthecloset_400.png" alt="Screen - Out of the Closet" class="screen">
-      <img src="img/folio/scrapp/assets/Listing_seancasey_400.png" alt="Screen - Listing - Sean Casey Animal Shelter" class="screen">
+      <img src="img/assets/Listing_ewaste_400.png" alt="Screen - Gowanus E-Waste" class="screen">
+      <img src="img/assets/Listing_outofthecloset_400.png" alt="Screen - Out of the Closet" class="screen">
+      <img src="img/assets/Listing_seancasey_400.png" alt="Screen - Listing - Sean Casey Animal Shelter" class="screen">
     </p>
     <div class="folio_body">
       <hr>
       <p>Search</p>
     </div>
     <p style="text-align: center;">
-      <img src="img/folio/scrapp/assets/screen_search_400.png" alt="Screen - search" class="screen">
-      <img src="img/folio/scrapp/assets/screen_search_results_400.png" alt="Screen - search results" class="screen">
-      <img src="img/folio/scrapp/assets/screen_search_results_map_400.png" alt="Screen - search results with map" class="screen">
+      <img src="img/assets/screen_search_400.png" alt="Screen - search" class="screen">
+      <img src="img/assets/screen_search_results_400.png" alt="Screen - search results" class="screen">
+      <img src="img/assets/screen_search_results_map_400.png" alt="Screen - search results with map" class="screen">
     </p>
     <div class="folio_body">
       <hr>
       <p>Schedule a pick up</p>
     </div>
     <p style="text-align: center;">
-      <img src="img/folio/scrapp/assets/screen_organizepickup_400.png" alt="Screen - Organize a pick up" class="screen">
-      <img src="img/folio/scrapp/assets/screen_pickupdate_400.png" alt="Screen - search results with map" class="screen">
-      <img src="img/folio/scrapp/assets/screen_pickupaddress_400.png" alt="Screen - search results" class="screen">
+      <img src="img/assets/screen_organizepickup_400.png" alt="Screen - Organize a pick up" class="screen">
+      <img src="img/assets/screen_pickupdate_400.png" alt="Screen - search results with map" class="screen">
+      <img src="img/assets/screen_pickupaddress_400.png" alt="Screen - search results" class="screen">
     </p>
     <!-- NOTE: usability testing starts here -->
 
     <div class="article_heading" style="background-color:#f05c38;">
       <div>
-        <img src="img/folio/scrapp/icons/usabilitytest.svg" id="header_icon" alt="usability test icon">
+        <img src="img/icons/usabilitytest.svg" id="header_icon" alt="usability test icon">
         <h1 style="color:#ffffff;">Usability testing</h1>
       </div>
     </div>
@@ -1174,7 +1167,7 @@
     <hr>
     <!-- NOTE: next steps starts Here -->
     <div class="article_heading_small">
-      <img src="img/folio/scrapp/icons/nextsteps.svg" id="round_icon" alt="next steps icon">
+      <img src="img/icons/nextsteps.svg" id="round_icon" alt="next steps icon">
       <h5>Next steps</h5>
     </div>
     <div class="folio_body">
