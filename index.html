@@ -25,10 +25,13 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138675712-2"></script>
   <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-   gtag('config', 'UA-138675712-2');
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-138675712-2');
   </script>
 </head>
 
@@ -216,59 +219,19 @@
 
     <!-- NOTE: folio item 1 starts here -->
     <div class="folio_2 scrapp">
-
       <div class="above_hero">
         <div class="project">
           <h2><a href="folio/scrapp/">Scrapp</a></h2>
         </div>
-
         <div class="work_number">
           <h3>for iOS</h3>
         </div>
       </div>
-
       <div class="hero_image">
-        <div class="w3-content w3-display-container">
-          <a href="folio/scrapp/">
-            <img alt="Scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src=folio/scrapp/img/hero/screens/Home_400.png" srcset="
-            folio/scrapp/img/hero/screens/Home_400.png   800w," />
-            <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="folio/scrapp/img/hero/screens/Onboarding.png" srcset="
-            folio/scrapp/img/hero/screens/Onboarding_400.png   800w," />
-            <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="folio/scrapp/img/hero/screens/Listing_outofthecloset.png" srcset="
-            folio/scrapp/img/hero/screens/Listing_outofthecloset_400.png   800w," />
-            <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="folio/scrapp/img/hero/screens/screen_pickupaddress.png" srcset="
-            folio/scrapp/img/hero/screens/screen_pickupaddress_400.png   800w," />
-            <img alt="scrapp" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="folio/scrapp/img/hero/screens/screen_search_results_map.png" srcset="
-            folio/scrapp/img/hero/screens/screen_search_results_map_400.png   800w," />
-          </a>
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
-        <script>
-          var slideIndex = 1;
-          showDivs(slideIndex);
-
-          function plusDivs(n) {
-            showDivs(slideIndex += n);
-          }
-
-          function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {
-              slideIndex = 1
-            }
-            if (n < 1) {
-              slideIndex = x.length
-            }
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-          }
-        </script>
+        <a href="folio/scrapp/">
+            <p style="text-align:center ;"><img alt="Scrapp" src="folio/scrapp/img/hero/screens/Home_400.png" /></p>
+        </a>
       </div>
-
       <div class="below_hero">
         <div class="role">
           <h3>Role: UI/UX/Project Manager</h3>
@@ -356,8 +319,6 @@
       </div>
     </div>
     <!-- NOTE: folio item 1 ends here -->
-
-
     <!-- NOTE: folio item 2 starts here -->
     <div class="folio_1 eiu">
       <div class="above_hero">
@@ -368,11 +329,9 @@
           <h2>for i0S</h2>
         </div>
       </div>
-      <div clsss="hero_image">
+      <div class="hero_image">
         <a href="folio/eiu/">
-          <img alt="eiu" class="image hero_image" sizes="(max-width: 400px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/eiu/eiu_01_800.png" srcset="
-        img/folio/eiu/eiu_01_600.png   600w,
-        img/folio/eiu/eiu_01_800.png   800w," />
+            <p style="text-align:center ;"><img alt="EIU Home" src="folio/eiu/img/hero/screens/eiu_home_400.png" /></p>
         </a>
       </div>
       <div class="below_hero">
@@ -462,29 +421,27 @@
       </div>
     </div>
     <!-- NOTE: folio item 2 ends here -->
-
     <!-- NOTE: folio item 3 starts here -->
     <div class="folio_3 develop">
       <div class="above_hero">
         <div class="project">
           <!-- <a class="class2" href="folio/develop/index.html"> -->
-            <h2>Develop Assistant</h2>
+          <h2>Develop Assistant</h2>
           <!-- </a> -->
         </div>
         <div class="work_number">
           <h2>for iOS & Watch OS</h2>
         </div>
       </div>
-      <div class="hero_image">   <!-- <a href="folio/develop/index.html"> --> <img alt="develop" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/folio/develop/Develop_ios_watchos_800.png" srcset="
-        img/folio/develop/Develop_ios_watchos_800.png   600w,
-        img/folio/develop/Develop_ios_watchos_800.png   800w," />
-      <!-- </a> -->
+      <div class="hero_image">
+        <!-- <a href="folio/develop/index.html"> -->
+        <p style="text-align:center ;"><img alt="Develop App" src="folio/develop/img/hero/screens/Develop_ios_watchos_800.png"/></p>
+        <!-- </a> -->
       </div>
       <div class="below_hero">
         <div class="role">
           <h3>User Research/UX/UI</h3>
         </div>
-
         <div class="project_on_social">
           <nav>
             <ul class="social">

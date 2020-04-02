@@ -230,9 +230,52 @@
           <h3>i0S</h3>
         </div>
       </div>
-      <div clsss="hero_image"><img alt="EIU" class="image hero_image" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_01_800.png" srcset="
-        img/hero/screens/eiu_01_600.png   400w,
-        img/hero/screens/eiu_01_800.png   800w," />
+      <div class="hero_image">
+        <div class="w3-content w3-display-container">
+          <a href="folio/eiu/">
+            <img alt="EIU Home" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src=img/hero/screens/eiu_home_400.png" srcset="
+            folio/eiu/img/hero/screens/eiu_home_400.png   800w," />
+            <img alt="EIU Onboarding" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_onboarding_400.png" srcset="
+            img/hero/screens/eiu_onboarding_400.png   800w," />
+            <img alt="EIU Feature" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_feature_400.png" srcset="
+            img/hero/screens/eiu_feature_400.png   800w," />
+            <img alt="EIU Article - Light Mode" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_article_lightmode_400.png" srcset="
+            img/hero/screens/eiu_article_lightmode_400.png   800w," />
+            <img alt="EIU Article - Night Mode" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_article_nightmode_400.png" srcset="
+            img/hero/screens/eiu_article_nightmode_400.png   800w," />
+            <img alt="EIU Bookmarks" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_bookmarks_400.png" srcset="
+            img/hero/screens/eiu_bookmarks_400.png   800w," />
+            <img alt="EIU Personalise" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_personalise_400.png" srcset="
+            img/hero/screens/eiu_personalise_400.png   800w," />
+            <img alt="EIU Profile" class="image hero_image mySlides" sizes="(max-width: 479px) 73vw, (max-width: 767px) 58vw, (max-width: 991px) 61vw, 35vw" src="img/hero/screens/eiu_profile_400.png" srcset="
+            img/hero/screens/eiu_profile_400.png   800w," />
+          </a>
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+              slideIndex = 1
+            }
+            if (n < 1) {
+              slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+          }
+        </script>
       </div>
       <div class="below_hero">
         <div class="project">
@@ -417,7 +460,7 @@
       <div class="folio_body">
         <p>We wanted to get a sense of similar apps within the same space of a proposed EIU app. Considered were similar consultancy firms presumed to have audience overlap. I acetrained where this overlap was using tools such as <a href="https://trends.google.com/trends/explore?q=%2Fm%2F07n2rh">Google Trends</a>, <a href="https://www.facebook.com/business/help/1679591828938781?id=176276233019487">Facebook for Business</a>, and <a href="https://www.alexa.com/siteinfo/eiu.com">Alexa Competitive Analysis, Marketing Mix and Traffic</a>. Also examined were apps considered to be best-practice or innovative in the content publishing space.</p>
       </div>
-      <br>
+
       <br>
       <div class="folio_body">
         <div class="space_around">
@@ -495,6 +538,10 @@
           </div>
 
         </div>
+<br>
+      <p style="text-align:center;"><img src="img/assets/CAanimate.gif"></p>
+
+
       </div>
       <!-- NOTE: brand position starts here -->
       <hr>
@@ -519,7 +566,7 @@
       <div class="article_heading_small">
         <div class="folio_body">
           <div class="article_heading_small">
-            <img src="img/folio/eiu/confcall.png">
+            <img src="img/assets/confcall.png">
           </div>
           <h5>Five interviews were conducted via video-conference. Three of our interviewees were in London, two were in New York.</h5>
           <br>
@@ -527,7 +574,7 @@
             with customer knowledge similar to end-users. Some had previously been or were currently using the premium-tier subscription product.</p>
 
           <div class="article_heading_small">
-            <img class="londonnewyork" src="img/folio/eiu/teleconference.svg">
+            <img class="londonnewyork" src="img/illustrations/teleconference.svg">
           </div>
         </div>
         <div class="folio_body">
@@ -540,39 +587,39 @@
       </div>
       <!-- NOTE: Synthesis starts here -->
       <div class="article_heading" style="background-color:#3C4FAF;">
-        <img id="header_icon" src="img/folio/eiu/encoding.svg">
+        <img id="header_icon" src="img/icons/encoding.svg">
         <h1 style="color:#ffffff;">Synthesis</h1>
       </div>
       <!-- NOTE: Transcription starts here -->
       <div class="article_heading_small">
         <br>
-        <img id="round_icon" src="img/folio/eiu/transcribe.svg">
+        <img id="round_icon" src="img/icons/transcribe.svg">
         <h5><strong>Transcription</strong></h5>
         <br>
       </div>
       <div class="folio_body">
         <p>The interviews were recorded and then later transcribed for further analysis.</p>
-        <img src="img/folio/eiu/transcribing.jpg">
+        <img src="img/assets/transcribing.jpg">
         <hr>
       </div>
       <!-- NOTE: Thematic analysis starts here -->
       <div class="article_heading_small">
-        <img id="round_icon" src="img/folio/eiu/outline.svg">
+        <img id="round_icon" src="img/icons/outline.svg">
         <h5><strong>Thematic analysis</strong></h5>
       </div>
       <div class="folio_body">
         <p>Next I undertook a thematic analysis and began identifying common threads that were emerging within the interviews.</p>
       </div>
       <div class="article_heading_small transcription_graphic">
-        <img src="img/folio/eiu/Interview.png">
+        <img src="img/assets/Interview.png">
       </div>
       <hr>
       <!-- NOTE: Affinity mapping starts here -->
       <div class="article_heading_small affinitymap">
-        <img id="round_icon" src="img/folio/eiu/affinitymap.svg">
+        <img id="round_icon" src="img/icons/affinitymap.svg">
         <h5><strong>Affinity maping</strong></h5>
         <br>
-        <img src="img/folio/eiu/synthesis.jpg">
+        <img src="img/assets/synthesis.jpg">
         <br>
       </div>
       <div class="folio_body affinitymap">
@@ -581,10 +628,15 @@
           themes that emerged were: <em>types of users, goals, wants, design needs, pain points, brand awareness, and other products often used</em>.</p>
       </div>
       <div class="folio_image_wide affinitymap">
-        <p style="text-align:center;"><img src="img/folio/eiu/affinitycats.svg"></p>
+        <p style="text-align:center;"><img src="img/assets/affinitycats.svg"></p>
         <hr>
 
-        <p style="text-align:center;"><img src="img/folio/eiu/affinity_map_all.png"></p>
+        <p style="text-align:center;"><img src="img/assets/affinity_map_all.png"></p>
+
+<hr>
+
+        <p style="text-align:center;"><img src="img/assets/affinity.png"></p>
+
       </div>
       <br>
 
@@ -593,7 +645,7 @@
 
                 <div class="article_heading_small">
                   <div>
-                    <img src="img/folio/eiu/wireframe.svg" id="round_icon">
+                    <img src="img/icons/wireframe.svg" id="round_icon">
                     <h5>Site map for the legacy website</h5>
                   </div>
                 </div>
@@ -643,68 +695,72 @@
 
       <!-- NOTE: findings start here -->
       <div class="article_heading findings" style="background-color:#3C4FAF;">
-        <img id="header_icon" src="img/folio/eiu/result.svg">
+        <img id="header_icon" src="img/icons/result.svg">
         <h1 style="color:#ffffff;">Findings</h1>
       </div>
       <!-- NOTE: the users are... starts here -->
       <div class="article_heading_small" style="text-align:center;">
-        <img id="round_icon" src="img/folio/eiu/user.svg">
+        <img id="round_icon" src="img/icons/user.svg">
         <h5><strong>The users are</strong></h5>
         <br>
 
         <div class="folio_body user_icons">
           <div class="space_around">
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/companydirector.svg" alt="Company directors">
+              <img class="user_icon" src="img/illustrations/companydirector.svg" alt="Company directors">
               <h6>Company directors</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/executive.svg" alt="Executives">
+              <img class="user_icon" src="img/illustrations/executive.svg" alt="Executives">
               <h6>Executives</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/researcher.svg" alt="Researchers">
+              <img class="user_icon" src="img/illustrations/researcher.svg" alt="Researchers">
               <h6>Researchers</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/economist.svg" alt="Economists">
+              <img class="user_icon" src="img/illustrations/economist.svg" alt="Economists">
               <h6>Economists</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/import.svg" alt="Product managers">
+              <img class="user_icon" src="img/illustrations/import.svg" alt="Product managers">
               <h6>Product managers</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/investor.svg" alt="Investors in projects">
+              <img class="user_icon" src="img/illustrations/investor.svg" alt="Investors in projects">
               <h6>Investors in projects</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/data-scientist.svg" alt="Data scientists">
+              <img class="user_icon" src="img/illustrations/data-scientist.svg" alt="Data scientists">
               <h6>Data scientists</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/librarian.svg" alt="Librarians">
+              <img class="user_icon" src="img/illustrations/librarian.svg" alt="Librarians">
               <h6>Librarians</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/journalist.svg" alt="Journalists">
+              <img class="user_icon" src="img/illustrations/journalist.svg" alt="Journalists">
               <h6>Journalists</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/editor.svg" alt="Editors">
+              <img class="user_icon" src="img/illustrations/editor.svg" alt="Editors">
               <h6>Editors</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/authoritative.svg" alt="Product developers">
+              <img class="user_icon" src="img/illustrations/authoritative.svg" alt="Product developers">
               <h6>Product developers</h6>
             </div>
             <div class="app_icon_div">
-              <img class="user_icon" src="img/folio/eiu/government.svg" alt="Government">
+              <img class="user_icon" src="img/illustrations/government.svg" alt="Government">
               <h6>Government employees</h6>
             </div>
           </div>
-        </div>
 
+
+        </div>
+        <br>
+        <br>
+<img src="img/assets/users.png">
       </div>
 
       <!-- NOTE: Needs start here -->
@@ -716,7 +772,7 @@
 
 
       <div class="article_heading_small needs">
-        <img id="round_icon" src="img/folio/eiu/needs.svg">
+        <img id="round_icon" src="img/icons/needs.svg">
         <h5>Needs</h5>
       </div>
       <br>
@@ -725,59 +781,59 @@
             <div class="folio_body user_icons">
               <div class="space_around">
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/warning (1).svg" alt="Company directors">
+                  <img class="user_icon" src="img/illustrations/warning.svg" alt="Company directors">
                   <h6>Updates on special reports</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/presentation.svg" alt="Executives">
+                  <img class="user_icon" src="img/illustrations/presentation.svg" alt="Executives">
                   <h6>Find out about EIU events, seminars, and webinars</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/chatbot.svg" alt="Researchers">
+                  <img class="user_icon" src="img/illustrations/chatbot.svg" alt="Researchers">
                   <h6>Chatbot or customer service representative</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/snooze.svg" alt="Economists">
+                  <img class="user_icon" src="img/illustrations/snooze.svg" alt="Economists">
                   <h6>Personalize alerts and notifications for the weekend or when traveling</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/bookmark.svg" alt="Product managers">
+                  <img class="user_icon" src="img/illustrations/bookmark.svg" alt="Product managers">
                   <h6>Bookmarking tool</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/loupe.svg" alt="Investors in projects">
+                  <img class="user_icon" src="img/illustrations/loupe.svg" alt="Investors in projects">
                   <h6>Search tool</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/cash-flow.svg" alt="Data scientists">
+                  <img class="user_icon" src="img/illustrations/cash-flow.svg" alt="Data scientists">
                   <h6>Exchange rates</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/research3.svg" alt="Librarians">
+                  <img class="user_icon" src="img/illustrations/research3.svg" alt="Librarians">
                   <h6>Top-level data to compare and benchmark</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/city.svg" alt="Journalists">
+                  <img class="user_icon" src="img/illustrations/city.svg" alt="Journalists">
                   <h6>Filter by city level</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/factory.svg" alt="Editors">
+                  <img class="user_icon" src="img/illustrations/factory.svg" alt="Editors">
                   <h6>Filter by industry/s</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/map.svg" alt="Product developers">
+                  <img class="user_icon" src="img/illustrations/map.svg" alt="Product developers">
                   <h6>Filter by country</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/infographic.svg" alt="Government">
+                  <img class="user_icon" src="img/illustrations/infographic.svg" alt="Government">
                   <h6>Information graphics</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/download.svg" alt="Government">
+                  <img class="user_icon" src="img/illustrations/download.svg" alt="Government">
                   <h6>Download content for offline use</h6>
                 </div>
                 <div class="app_icon_div">
-                  <img class="user_icon" src="img/folio/eiu/picture.svg" alt="Government">
+                  <img class="user_icon" src="img/illustrations/picture.svg" alt="Government">
                   <h6>Custom feeds</h6>
                 </div>
 
@@ -788,14 +844,14 @@
       <hr>
 
       <div class="article_heading_small painpoints">
-        <img id="round_icon" src="img/folio/eiu/angry.svg">
+        <img id="round_icon" src="img/icons/angry.svg">
         <h5><strong>Pain points</strong></h5>
       </div>
 
 
 
-      <div class="folio_image_wide" style="padding-left:3%; padding-right: 3%">
-        <img src="img/folio/eiu/painpoints.svg">
+      <div class="folio_image_wide" style="padding-left:10%; padding-right: 10%">
+        <img src="img/assets/painpoints.svg">
       </div>
 
 
@@ -808,7 +864,7 @@
       <hr>
       <div class="article_heading_small">
         <div>
-          <img id="round_icon" src="img/folio/eiu/perception.svg">
+          <img id="round_icon" src="img/icons/perception.svg">
           <h5><strong>User's perception of the EIU</strong></h5>
 
 
@@ -819,27 +875,27 @@
           <div class="folio_body" style="text-align:center;">
             <div class="space_around">
               <div class="app_icon_div">
-                <img class="app_icon" src="img/folio/eiu/global.svg" alt="Factiva">
+                <img class="app_icon" src="img/illustrations/global.svg" alt="Global">
                 <h6>Global</h6>
               </div>
               <div class="app_icon_div">
-                <img class="app_icon" src="img/folio/eiu/impartial.svg" alt="Economist Espresso">
+                <img class="app_icon" src="img/illustrations/impartial.svg" alt="Impartial">
                 <h6>Impartial</h6>
               </div>
               <div class="app_icon_div">
-                <img class="app_icon" src="img/folio/eiu/scholarly.svg" alt="Economist">
+                <img class="app_icon" src="img/illustrations/scholar.svg" alt="Scholarly">
                 <h6>Scholarly</h6>
               </div>
               <div class="app_icon_div">
-                <img class="app_icon" src="img/folio/eiu/credible.svg" alt="Google News">
+                <img class="app_icon" src="img/illustrations/credible.svg" alt="Credible">
                 <h6>Credible</h6>
               </div>
               <div class="app_icon_div">
-                <img class="app_icon" src="img/folio/eiu/authoritative.svg" alt="Twitter">
+                <img class="app_icon" src="img/illustrations/authoritative.svg" alt="Authoritative">
                 <h6>Authoritative</h6>
               </div>
               <div class="app_icon_div">
-                <img class="app_icon" src="img/folio/eiu/serious.svg" alt="BBC">
+                <img class="app_icon" src="img/illustrations/serious.svg" alt="Serious">
                 <h6>Serious</h6>
               </div>
             </div>
@@ -853,7 +909,7 @@
       <!-- NOTE: Other products they talked about start here -->
       <div class="article_heading_small">
         <div>
-          <img id="round_icon" src="img/folio/eiu/mobile-app.svg">
+          <img id="round_icon" src="img/icons/mobile-app.svg">
           <h5><strong>Other products they talked about</strong></h5>
         </div>
       </div>
@@ -863,31 +919,31 @@
       <div class="folio_body" style="text-align:center;">
         <div class="space_around">
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/nytimes.png" alt="Factiva">
+            <img class="app_icon" src="img/app_icons/nytimes.png" alt="New York Times">
             <h6>New York Times</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/espresso.png" alt="Economist Espresso">
+            <img class="app_icon" src="img/app_icons/espresso.png" alt="Economist Espresso">
             <h6>Economist Espresso</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/economist.png" alt="Economist">
+            <img class="app_icon" src="img/app_icons/economist.png" alt="Economist">
             <h6>Economist</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/googlenews.png" alt="Google News">
+            <img class="app_icon" src="img/app_icons/googlenews.png" alt="Google News">
             <h6>Google News</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/twitter.png" alt="Twitter">
+            <img class="app_icon" src="img/app_icons/twitter.png" alt="Twitter">
             <h6>Twitter</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/BBC.png" alt="BBC">
+            <img class="app_icon" src="img/app_icons/BBC.png" alt="BBC">
             <h6>BBC</h6>
           </div>
           <div class="app_icon_div">
-            <img class="app_icon" src="img/folio/eiu/CNN.png" alt="CNN">
+            <img class="app_icon" src="img/app_icons/CNN.png" alt="CNN">
             <h6>CNN</h6>
           </div>
         </div>
@@ -903,8 +959,8 @@
     <!-- NOTE: Design starts here -->
     <div class="article_heading" style="background-color:#3C4FAF;">
       <div>
-        <img src="img/folio/eiu/sketch.svg" id="header_icon">
-        <h1 style="color:#ffffff;">Design</h1>
+        <img src="img/icons/personas.svg" id="header_icon">
+        <h1 style="color:#ffffff;">Personas</h1>
       </div>
       <div>
       </div>
@@ -912,15 +968,30 @@
     <!-- NOTE: persona starts here -->
     <div class="article_heading_small">
       <div>
-        <img src="img/folio/eiu/personas.svg" id="round_icon">
-        <h5>Personas</h5>
+        <img src="img/icons/personas.svg" id="round_icon">
+        <h5>Initial persona sketches</h5>
+      </div>
+    </div>
+<div class="folio_body">
+
+
+  <p style="text-align: center;"><img src="img/assets/persona_sketches1.png"></p>
+  <p style="text-align: center;"><img src="img/assets/persona_sketches2.png"></p>
+
+</div>
+
+<hr>
+    <div class="article_heading_small">
+      <div>
+        <img src="img/icons/personas.svg" id="round_icon">
+        <h5>Finalized personas</h5>
       </div>
     </div>
     <!-- NOTE: future gen starts here -->
     <div class="folio_body futuregeneiu">
       <article>
         <section>
-          <img src="img/folio/eiu/034-woman-2.svg">
+          <img src="img/personas/034-woman-2.svg" id="round_icon">
           <h1>Future Generation EIU Subscriber</h1>
           <h5>Young professional and digital native</h5>
           <hr>
@@ -941,7 +1012,7 @@
     <div class="folio_body influencer">
       <article>
         </section>
-        <img src="img/folio/eiu/027-boy-6.svg">
+        <img src="img/personas/027-boy-6.svg" id="round_icon">
         <section>
           <h1>Influencer</h1>
           <h5>Journalist or editor</h5>
@@ -964,7 +1035,7 @@
     <div class="folio_body switcher">
       <article class="switcher">
         <section>
-              <img src="img/folio/eiu/015-man-11.svg">
+              <img src="img/personas/015-man-11.svg" id="round_icon">
             </section>
             <section>
               <h1>Switcher</h1>
@@ -987,7 +1058,7 @@
           <article>
 
             <section>
-              <img src="img/folio/eiu/035-woman-1.svg">
+              <img src="img/personas/035-woman-1.svg" id="round_icon">
               <h1>New Prospect</h1>
               <h5>Researcher at a university</h5>
               <hr>
@@ -1010,16 +1081,32 @@
 
 
                 <!-- NOTE: wireframe start here -->
-                <div class="article_heading_small">
+
+
+                <div class="article_heading" style="background-color:#3C4FAF;">
                   <div>
-                    <img src="img/folio/eiu/wireframe.svg" id="round_icon">
-                    <h5>Wireframe</h5>
+                    <img src="img/icons/wireframe.svg" width="100px">
+                    <h1 style="color:#ffffff;">Wireframe</h1>
                   </div>
                 </div>
+<br>
                 <div class="folio_body">
-                  <p><img src="img/folio/eiu/eiuwireframe.png"></p>
-                </div>
+      <p>Our clickable prototype was created and used to understand more about how users would interact with our proposed future app. Initial sketches were created with pen and paper.</p>
 
+    <br>
+
+    <p style="text-align:center;"><img src="img/assets/wf_content.png"></p>
+    <br>
+    <hr>
+
+
+    <p>High fidelity artifacts and a clickable prototype was then created with Adobe XD.</p>
+
+    <br>
+    <p style="text-align:center;"><img src="img/assets/eiuwireframe.png"></p>
+    <br>
+    <br>
+      </div>
 
 
 
@@ -1036,7 +1123,7 @@
         <!-- NOTE: Usability tests start here -->
         <div class="article_heading" style="background-color:#3C4FAF;">
           <div>
-            <img src="img/folio/eiu/usability.svg" width="100px">
+            <img src="img/icons/usability.svg" width="100px">
             <h1 style="color:#ffffff;">Usability tests</h1>
           </div>
 
@@ -1044,9 +1131,13 @@
         <div class="article_heading_small">
           <div class="folio_body"
           <br>
-          <p style="text-align:center;"><img src="img/folio/eiu/uitest1.png"></p>
 
           <p>Several rounds of usability testing were completed with our proxy users as we ideated on our prototype. We received a final system usability scale score of 85 (0 being negtive 100 being positive).</p>
+<br>
+          <p style="text-align:center;"><img src="img/assets/uitest1.png"></p>
+<br>
+
+          <p style="text-align:center;"><img src="img/assets/usabilityscale.png"></p>
         </div>
         </div>
 
@@ -1055,7 +1146,7 @@
 
 
 
-        <br><br><br><br><br><br><br>
+        <br><br>
 
     </div>
     <!-- NOTE: right sidebar finishes here -->
