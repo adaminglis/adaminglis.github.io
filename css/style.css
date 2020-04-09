@@ -728,6 +728,18 @@ li a {
   padding-top: 2%;
   background-image: url("img/folio/develop/develop-noise-361x370.png");
 }
+.folio_4 {
+  background-color: #c1ff68;
+  width: "100%";
+  padding-top: 2%;
+}
+.folio_5 {
+  background-color: #0041b8;
+  width: "100%";
+  padding-top: 2%;
+}
+
+
 
 article {
   padding-top: 3%;
