@@ -712,21 +712,33 @@ li a {
 
 .folio_1 {
   background-color: #3C4FAF;
-  width: "100%";
-  padding-top: 2%;
+padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .folio_2 {
   background-color: #f05c38;
-  width: "100%";
-  padding-top: 2%;
+padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .folio_3 {
   background-color: #B492CD;
-  width: "100%";
-  padding-top: 2%;
-  background-image: url("img/folio/develop/develop-noise-361x370.png");
+padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	justify-content: space-between;
+  
 }
 .folio_4 {
   background-color: #c1ff68;
@@ -738,9 +750,20 @@ li a {
   background-color: #0041b8;
   width: "100%";
   padding-top: 2%;
+	padding-bottom: 2%;
+	
+	display: block;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .folio_6 {
+	
+	padding-bottom: 2%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	justify-content: space-between;
   background-color: #D92231;
   width: "100%";
   padding-top: 2%;
@@ -777,15 +800,14 @@ div.circletag>img {
 }
 
 .article_heading {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  width: 100%;
-  display: block;
-  text-align: center;
-  justify-content: space-between;
-  border-left: solid 1px #ffffff;
-  border-right: solid 1px #ffffff;
-  background-color: #F8F9F9;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	justify-content: space-between;
+
+	background-color: #DADADA;
 }
 
 .article_heading_small {
