@@ -708,10 +708,25 @@ li a {
   flex-flow: wrap;
   max-width: auto;
   padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   background-color: #f8f9f9;
   border: dotted 1px red;
 }
+.space_around_graphic {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-flow: wrap;
+  max-width: auto;
+  padding-top: 0em;
+  background-color: #ffffff;
+  border: dotted 1px red;
+}
+.two-col {
 
+}
 .folio_1 {
   background-color: #3C4FAF;
 padding-top: 2%;
