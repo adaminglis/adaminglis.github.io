@@ -331,12 +331,12 @@
     <div class="case_study">
       <div class="article_heading">
         <img src="img/assets/photo-film.svg" height="60px;">
-        <h1>Develop Assistant?</h1>
+        <h1>Develop Assistant</h1>
       </div>
       <div class="folio_body">
-        <p>Develop Assistant is an <strong>guided</strong> utility app to help you develop your own photographic film. For experienced photographers, It features a <strong>lab-timer tool</strong> and an <strong>assistant to help the user keep track
+        <p>Develop Assistant is a <strong>guided</strong> utility app to help users develop their own photographic film. For experienced photographers, It features a <strong>lab-timer tool</strong> and an <strong>assistant to help the user keep track
             of chemistry used</strong>. Develop Assistent enables the user to take control over their image-making process.</p>
-        <p>Develop Assistant is also educational too, in that it guides users through processes they may not already be familiar with - or that may seem complicated.</p>
+        <p>Develop Assistant is also educational in that it guides users through processes totally new to them - or that may seem complicated.</p>
       </div>
       <!-- NOTE: research starts here -->
       <div class="article_heading" style="background-color:#B492CD;">
@@ -345,29 +345,58 @@
         </div>
       </div>
       <div class="goals">
-        <h5>Goals</h5>
-        <p>The goal of my research was to identify the needs and wants of film photographers (amateur to expert) wishing to take control or experiment with the development process at home. I wanted to discover any blind spots and get a sense of who
-          my user's were and what balance of features to include in my prototype.</p>
-        <br>
+        <h5><strong>Goal</strong></h5>
+        <p>User research for a utility app to be used by a community of film-photography professionals and hobbiests.
+          <h5><strong>Objective</strong></h5> <p>Identify needs and wants of film photographers (amateur to expert) wishing to take control or experiment with the development process at home.
+            It needed to discover any blind spots identify blind spots and learn more about what features to include in a prototype. Importantly, it needed understand their current practices, pain points, product preferences and interests. Finally,
+            establish profiles and personas that reflected their goals. </p>
+
+          <br>
       </div>
       <div class="article_heading" style="background-color:#B492CD;">
         <div>
-          <h1 style="color:#ffffff;">Sample</h1>
+          <h1 style="color:#ffffff;">Research</h1>
         </div>
       </div>
       <div class="folio_body">
         <div class="article_heading_small">
           <img src="img/icons/sample.svg" id="round_icon" alt="sample">
-          <h5>Sample size: 240 people</h5>
+          <h5><strong>Sample:</strong> 240 people</h5>
         </div>
-        <p>A total of 240 people participated. Respondents were sourced from several online public and private film photography groups on Reddit and Facebook. A survey was created with Google forms. Preliminary research and industry-wide knowledge
-          was used as a baseline.</p>
-        <p>The data collected was qualitative and quantitative. Portions of the survey were multiple choice and responses guided the direction of subsequent questions. For instance, if someone identified themselves as a lab developer only, this
-          shaped the direction of the rest of the survey.
+
+        <p><strong>Source:</strong> several online public and private film-photography groups on <strong>Reddit</strong> and <strong>Facebook</strong>. </p>
+        <center>
+          <img src="img/icons/facebook.svg" id="round_icon" alt="forum" style="width: 40px;">
+          <img src="img/icons/forum.svg" id="round_icon" alt="forum">
+          <img src="img/icons/reddit.svg" id="round_icon" alt="forum" style="width: 40px;">
+        </center>
+
+        <p>I made
+          myself available for a q&a in the comments thread within the Reddit and Facebook groups I used to connect with sample users. Context was established and blind spots were identified during many of those initial interviews and conversations.</p>
+        <center>
+          <img src="img/icons/chat.svg" id="round_icon" alt="chat">
+        </center>
+        <center><p>The data collected was <strong>qualitative</strong> and <strong>quantitative</strong> in nature.</p></center>
+        <center>
+          <img src="img/icons/survey.svg" id="round_icon" alt="survey">
+        </center>
+
+          <p>Portions of the survey were multiple choice—but all questions allowed respondents the ability to provide any context or list an option not provided. Additional blind
+          spots were identified as a result of input in these fields. Context provided was recorded, analyzed and codified for statistic analysis.</p>
+
+        <center><p>Responses guided the direction of subsequent questions.</p></center>
+        <center>
+          <img src="img/icons/path.svg" id="round_icon" alt="survey">
+        </center>
+        <p>If a user identified themselves as a lab developer they would be funneled into a "lab developer" cohort
+          for the rest of the survey. Segmenting my users in this way enabled me to tailor my line of questions specifically to what was relevant to that particular group.
         </p>
-        <p>All questions allowed respondents the ability to provide any context or list an option not mentioned in the predicted responses. Significant blind spots were identified as a result of input from respondents in these fields. I also made
-          myself available for a q&a in the comments thread within the Reddit and Facebook groups I found my sample users in. Additional context and blind spots were identified during those conversations.</p>
+
+
+
+
       </div>
+      <br>
       <!-- note: findings start here -->
       <div class="article_heading" style="background-color:#B492CD;">
         <h1 style="color:#ffffff;">Findings</h1>
@@ -375,47 +404,83 @@
 
 
 
-    <div class="folio_body">
-      <!-- note: age starts here -->
-      <div class="article_heading_small">
-        <img src="img/icons/demography.svg" id="round_icon" alt="demography">
-        <h5>Demography</h5>
-      </div>
-      <div class="space_around_graphic">
-        <div id="piechart_age"></div>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
-        </script>
-        <script type="text/javascript">
-          // Load google charts
-          google.charts.load('current', {
-            'packages': ['corechart']
-          });
-          google.charts.setOnLoadCallback(drawChart);
-          // Draw the chart and set the chart values
-          function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-              ['Age', 'Percentage'],
-              ['0-18', 10],
-              ['19-34', 69.1],
-              ['35-50', 14.7],
-              ['51-75', 5],
-              ['75+', 0.4]
-            ]);
-            // Optional; add a title and set the width and height of the chart
-            var options = {
-              'title': 'Age',
-              'width': 400,
-              'height': 300
-            };
-            // Display the chart inside the <div> element with id="piechart"
-            var chart = new google.visualization.PieChart(document.getElementById('piechart_age'));
-            chart.draw(data, options);
-          }
-        </script>
+      <div class="folio_body">
+        <!-- note: age starts here -->
+        <div class="article_heading_small">
+          <img src="img/icons/demography.svg" id="round_icon" alt="demography">
+          <h5>Demography</h5>
+        </div>
+        <div class="space_around_graphic">
+          <div id="piechart_age"></div>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+          </script>
+          <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', {
+              'packages': ['corechart']
+            });
+            google.charts.setOnLoadCallback(drawChart);
+            // Draw the chart and set the chart values
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+                ['Age', 'Percentage'],
+                ['0-18', 10],
+                ['19-34', 69.1],
+                ['35-50', 14.7],
+                ['51-75', 5],
+                ['75+', 0.4]
+              ]);
+              // Optional; add a title and set the width and height of the chart
+              var options = {
+                'title': 'Age',
+                'width': 400,
+                'height': 300
+              };
+              // Display the chart inside the <div> element with id="piechart"
+              var chart = new google.visualization.PieChart(document.getElementById('piechart_age'));
+              chart.draw(data, options);
+            }
+          </script>
+          <br>
+          <!-- note: gender chart starts here -->
+          <div class="two-col">
+            <div id="piechart_gender"></div>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+              // Load google charts
+              google.charts.load('current', {
+                'packages': ['corechart']
+              });
+              google.charts.setOnLoadCallback(drawChart);
+              // Draw the chart and set the chart values
+              function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                  ['Gender', 'Percentage'],
+                  ['Male', 88],
+                  ['Female', 12],
+                  ['Other', 0],
+                ]);
+                // Optional; add a title and set the width and height of the chart
+                var options = {
+                  'title': 'Gender',
+                  'width': 400,
+                  'height': 300
+                };
+                // Display the chart inside the <div> element with id="piechart"
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_gender'));
+                chart.draw(data, options);
+              }
+            </script>
+          </div>
+        </div>
         <br>
-        <!-- note: gender chart starts here -->
-        <div class="two-col">
-          <div id="piechart_gender"></div>
+        <!-- note: experience level chart starts here -->
+        <div class="article_heading_small">
+          <img src="img/icons/experiencelevel.svg" id="round_icon" alt="experience">
+          <h5>How much experience they have</h5>
+        </div>
+        <div class="space_around_graphic">
+          <div id="piechart_level"></div>
           <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
           <script type="text/javascript">
             // Load google charts
@@ -426,125 +491,89 @@
             // Draw the chart and set the chart values
             function drawChart() {
               var data = google.visualization.arrayToDataTable([
-                ['Gender', 'Percentage'],
-                ['Male', 88],
-                ['Female', 12],
-                ['Other', 0],
+                ['Level', 'Percentage'],
+                ['Intermediate', 65],
+                ['Advanced', 22.5],
+                ['Beginner', 12.5],
               ]);
               // Optional; add a title and set the width and height of the chart
               var options = {
-                'title': 'Gender',
+                'title': 'Level',
                 'width': 400,
                 'height': 300
               };
               // Display the chart inside the <div> element with id="piechart"
-              var chart = new google.visualization.PieChart(document.getElementById('piechart_gender'));
+              var chart = new google.visualization.PieChart(document.getElementById('piechart_level'));
               chart.draw(data, options);
             }
           </script>
         </div>
-      </div>
-      <br>
-      <!-- note: experience level chart starts here -->
-      <div class="article_heading_small">
-        <img src="img/icons/experiencelevel.svg" id="round_icon" alt="experience">
-        <h5>How much experience they have</h5>
-      </div>
-      <div class="space_around_graphic">
-        <div id="piechart_level"></div>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript">
-          // Load google charts
-          google.charts.load('current', {
-            'packages': ['corechart']
-          });
-          google.charts.setOnLoadCallback(drawChart);
-          // Draw the chart and set the chart values
-          function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-              ['Level', 'Percentage'],
-              ['Intermediate', 65],
-              ['Advanced', 22.5],
-              ['Beginner', 12.5],
-            ]);
-            // Optional; add a title and set the width and height of the chart
-            var options = {
-              'title': 'Level',
-              'width': 400,
-              'height': 300
-            };
-            // Display the chart inside the <div> element with id="piechart"
-            var chart = new google.visualization.PieChart(document.getElementById('piechart_level'));
-            chart.draw(data, options);
-          }
-        </script>
-      </div>
-      <br>
-      <!-- note: film shot chart starts here -->
-      <div class="article_heading_small">
-        <img src="img/icons/filmshot.svg" id="round_icon" alt="film pref">
-        <h5>Filmstock they use and how they process it</h5>
-      </div>
-      <div class="space_around_graphic">
-        <div id="piechart_film"></div>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript">
-          // Load google charts
-          google.charts.load('current', {
-            'packages': ['corechart']
-          });
-          google.charts.setOnLoadCallback(drawChart);
-          // Draw the chart and set the chart values
-          function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-              ['Product', 'Percentage'],
-              ['C41 color negative film', 71.3],
-              ['E-6 color positive or slide film', 30.8],
-              ['Black and white negative film', 82.1],
-              ['Other', 4.4],
-            ]);
-            // Optional; add a title and set the width and height of the chart
-            var options = {
-              'title': 'Film products they use',
-              'width': 400,
-              'height': 300
-            };
-            // Display the chart inside the <div> element with id="piechart"
-            var chart = new google.visualization.PieChart(document.getElementById('piechart_film'));
-            chart.draw(data, options);
-          }
-        </script>
+        <br>
+        <!-- note: film shot chart starts here -->
+        <div class="article_heading_small">
+          <img src="img/icons/filmshot.svg" id="round_icon" alt="film pref">
+          <h5>Filmstock they use and how they process it</h5>
+        </div>
+        <div class="space_around_graphic">
+          <div id="piechart_film"></div>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', {
+              'packages': ['corechart']
+            });
+            google.charts.setOnLoadCallback(drawChart);
+            // Draw the chart and set the chart values
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+                ['Product', 'Percentage'],
+                ['C41 color negative film', 71.3],
+                ['E-6 color positive or slide film', 30.8],
+                ['Black and white negative film', 82.1],
+                ['Other', 4.4],
+              ]);
+              // Optional; add a title and set the width and height of the chart
+              var options = {
+                'title': 'Film products they use',
+                'width': 400,
+                'height': 300
+              };
+              // Display the chart inside the <div> element with id="piechart"
+              var chart = new google.visualization.PieChart(document.getElementById('piechart_film'));
+              chart.draw(data, options);
+            }
+          </script>
 
-        <div id="piechart_workflow"></div>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript">
-          // Load google charts
-          google.charts.load('current', {
-            'packages': ['corechart']
-          });
-          google.charts.setOnLoadCallback(drawChart);
-          // Draw the chart and set the chart values
-          function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-              ['Behaviour', 'Percentage'],
-              ['I send it to a lab', 18.3],
-              ['I develop it myself', 45.8],
-              ['Sometimes I develop it myself, other times I send it to a lab', 35.4],
-            ]);
-            // Optional; add a title and set the width and height of the chart
-            var options = {
-              'title': 'How they get their film developed',
-              'width': 400,
-              'height': 300
-            };
-            // Display the chart inside the <div> element with id="piechart"
-            var chart = new google.visualization.PieChart(document.getElementById('piechart_workflow'));
-            chart.draw(data, options);
-          }
-        </script>
+          <div id="piechart_workflow"></div>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', {
+              'packages': ['corechart']
+            });
+            google.charts.setOnLoadCallback(drawChart);
+            // Draw the chart and set the chart values
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+                ['Behaviour', 'Percentage'],
+                ['I send it to a lab', 18.3],
+                ['I develop it myself', 45.8],
+                ['Sometimes I develop it myself, other times I send it to a lab', 35.4],
+              ]);
+              // Optional; add a title and set the width and height of the chart
+              var options = {
+                'title': 'How they get their film developed',
+                'width': 400,
+                'height': 300
+              };
+              // Display the chart inside the <div> element with id="piechart"
+              var chart = new google.visualization.PieChart(document.getElementById('piechart_workflow'));
+              chart.draw(data, options);
+            }
+          </script>
 
+        </div>
       </div>
-    </div>
       <br>
 
       <hr>
@@ -558,149 +587,109 @@
         </center>
       </div>
 
-
       <div class="folio_body user_icons motivations">
-        <p>Users who DIY develop their own film and digitize their negaitves themselves (or have done so in the past)</p>
+
+
+        <h5 style="width:20em;">Users who DIY film processing</h5>
         <div class="space_around">
+
           <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/023-man-3.svg" alt="It's complicated">
-            <h6>"It's complicated"</h6>
-          </div>
-          <div class="app_icon_div">
+            <h6>25.6%<br> said<br><br> <em>"I'm concerned about use and disposal of chemicals"</em></h6>
             <img class="user_icon" src="img/personas/028-boy-5.svg" alt="Use and disposal of chemicals">
-            <h6>"Use and disposal of chemicals"</h6>
+
           </div>
           <div class="app_icon_div">
+            <h6>25.5%<br> said<br><br> <em>"I'm worried I will make a mistake"</em></h6>
             <img class="user_icon" src="img/personas/012-woman-4.svg" alt="I'm worried I will make a mistake">
-            <h6>"I'm worried I will make a mistake"</h6>
+
           </div>
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/024-man-2.svg" alt="I'm worried about dust settling on my negatives when they are drying">
-            <h6>"I'm worried about dust settling on my negatives when they are drying"</h6>
-          </div>
+
 
           <div class="app_icon_div">
+            <h6>21.5%<br> said<br><br> <em>"It's hard to regulate the develop temperature"</em></h6>
             <img class="user_icon" src="img/personas/034-woman-2.svg" alt="It's hard to regulate the develop temperature">
-            <h6>"It's hard to regulate the develop temperature"</h6>
+
           </div>
 
           <div class="app_icon_div">
+            <h6>20.5%<br>said<br><br> <em>"I have too much film to process by myself"</em></h6>
             <img class="user_icon" src="img/personas/020-man-6.svg" alt="I have too much film to process myself">
-            <h6>"I have too much film to process myself"</h6>
+
           </div>
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/018-man-8.svg" alt="I don’t shoot enough film to justify developing it myself">
-            <h6>"I don’t shoot enough film to justify developing it myself"</h6>
-          </div>
 
           <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/035-woman-1.svg" alt="I don't enjoy the process of scanning and digitizing images myself">
-            <h6>"I don't enjoy the process of scanning and digitizing images myself"</h6>
-          </div>
+            <h6>7.7%<br> said<br><br> <em>"It's complicated"</em></h6>
+            <img class="user_icon" src="img/personas/023-man-3.svg" alt="It's complicated">
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/003-woman-13.svg" alt="They only processes certain types of filmstock">
-            <h6>"They only processes certain types of filmstock"</h6>
           </div>
-
           <div class="app_icon_div">
+            <h6>3%<br> described it as<br><br> <em>"tedious or too time consuming"</em></h6>
             <img class="user_icon" src="img/personas/029-boy-4.svg" alt="Developing film myself is tedious">
-            <h6>"Developing film myself is tedious"</h6>
+
+
+
           </div>
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/021-man-5.svg" alt="I don't enjoy developing film myself">
-            <h6>"I don't enjoy developing film myself"</h6>
-          </div>
-
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/002-woman-14.svg" alt="I don't like using chemicals">
-            <h6>"I don't like using and handling chemicals"</h6>
-          </div>
-
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/033-boy.svg" alt="My chemicals might expire before I can finish using them">
-            <h6>"My chemicals might expire before I can finish using them"</h6>
-          </div>
-
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/004-woman-12.svg" alt="Disposal of used chemicals is inconvenient">
-            <h6>"Disposal of used chemicals is inconvenient"</h6>
-          </div>
-
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/035-woman-1.svg" alt="Developing film myself is time consuming">
-            <h6>"Developing film myself is time consuming"</h6>
-          </div>
 
         </div>
 
-
-      </div>
-
-
-      <!-- note: pain points for users who outsource development -->
+</div>
+        <!-- note: pain points for users who outsource development -->
 
 
+        <div class="folio_body user_icons motivations">
+          <h5 style="width:20em;">Users outsourcing film processing</h5>
+          <div class="space_around">
 
-      <div class="folio_body user_icons motivations">
-        <p>Users who outsource their film development and digitization to a lab</p>
-        <div class="space_around">
+            <div class="app_icon_div">
+              <h6>62%<br> said<br><br> <em>"It's expensive"</em></h6>
+              <img class="user_icon" src="img/personas/007-woman-9.svg" alt="value">
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/013-woman-3.svg" alt="There are no labs in my area, or none that I trust">
-            <h6>"There are no labs in my area, or none that I trust"</h6>
-          </div>
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/022-man-4.svg" alt="Turnaround time">
-            <h6>"Turnaround time"</h6>
-          </div>
-
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/019-man-7.svg" alt="It costs more to push or pull film">
-            <h6>"It costs more to push or pull film"</h6>
-          </div>
+            </div>
 
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/027-boy-6.svg" alt="I'm worried that the lab will do a bad job">
-            <h6>"I'm worried that the lab will do a bad job"</h6>
-          </div>
-<br>
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/014-man-12.svg" alt="Sometimes my lab delivers poor quality scans">
-            <h6>"Sometimes my lab delivers poor quality scans"</h6>
-          </div>
+            <div class="app_icon_div">
+              <h6>22%<br> said<br><br> <em>"Turnaround time" was an issue</em></h6>
+              <img class="user_icon" src="img/personas/022-man-4.svg" alt="Turnaround time">
+            </div>
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/015-man-11.svg" alt="value">
-            <h6>"They only process color negative film (C-41)""</h6>
-          </div>
+            <div class="app_icon_div">
+              <h6>20%<br> said<br><br> <em>"It costs more to push or pull film"</em></h6>
+              <img class="user_icon" src="img/personas/019-man-7.svg" alt="It costs more to push or pull film">
+
+            </div>
+
+            <div class="app_icon_div">
+              <h6>20%<br> said<br><br> <em>"There are no labs in my area, or none that I trust"</em></h6>
+              <img class="user_icon" src="img/personas/013-woman-3.svg" alt="There are no labs in my area, or none that I trust">
+
+            </div>
 
 
 
+            <div class="app_icon_div">
+              <h6>17.8%<br> said<br><br> <em>"They only process certain types of filmstock"</em></h6>
+              <img class="user_icon" src="img/personas/003-woman-13.svg" alt="value">
 
+            </div>
 
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/007-woman-9.svg" alt="value">
-            <h6>"It's expensive"</h6>
-          </div>
-
-
-
-
-          <div class="app_icon_div">
-            <img class="user_icon" src="img/personas/003-woman-13.svg" alt="value">
-            <h6>"They only processes certain types of filmstock"</h6>
-          </div>
+            <div class="app_icon_div">
+              <h6>16%<br> said<br><br> <em>"None. I love my lab!"</em></h6>
+              <img class="user_icon" src="img/personas/030-boy-3.svg" alt="None. I love my lab">
+            </div>
 
 
 
 
 
-          <!-- note: lab develop workflow chart starts here -->
+
+
+
+
+
+            <!-- note: lab develop workflow chart starts here -->
 
 
           </div>
@@ -708,36 +697,35 @@
 
           <p>For users in the cohort who send their film to a lab, 6 in 10 expressed an interest in learning how to take control of the development process themselves.</p>
 
-<div class="space_around_graphic"
-          <center>
+          <div class="space_around_graphic" <center>
             <div id="piechart_workflow2"></div>
-          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-          <script type="text/javascript">
-            // Load google charts
-            google.charts.load('current', {
-              'packages': ['corechart']
-            });
-            google.charts.setOnLoadCallback(drawChart);
-            // Draw the chart and set the chart values
-            function drawChart() {
-              var data = google.visualization.arrayToDataTable([
-                ['Behaviour', 'Percentage'],
-                ['Happy sending my film to a lab', 40],
-                ['Interested in learning to develop it myself', 60],
-              ]);
-              // Optional; add a title and set the width and height of the chart
-              var options = {
-                'title': 'Interest in learning to develop their own film',
-                'width': 400,
-                'height': 300
-              };
-              // Display the chart inside the <div> element with id="piechart"
-              var chart = new google.visualization.PieChart(document.getElementById('piechart_workflow2'));
-              chart.draw(data, options);
-            }
-          </script>
-        </center>
-</div>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+              // Load google charts
+              google.charts.load('current', {
+                'packages': ['corechart']
+              });
+              google.charts.setOnLoadCallback(drawChart);
+              // Draw the chart and set the chart values
+              function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                  ['Behaviour', 'Percentage'],
+                  ['Happy sending my film to a lab', 40],
+                  ['Interested in learning to develop it myself', 60],
+                ]);
+                // Optional; add a title and set the width and height of the chart
+                var options = {
+                  'title': 'Interest in learning to develop their own film',
+                  'width': 400,
+                  'height': 300
+                };
+                // Display the chart inside the <div> element with id="piechart"
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_workflow2'));
+                chart.draw(data, options);
+              }
+            </script>
+            </center>
+          </div>
         </div>
 
 
@@ -762,9 +750,53 @@
           </div>
         </div>
         <br>
+        <hr>
+        <div class="article_heading" style="background-color:#B492CD;">
+          <div>
+            <img src="img/folio/eiu/sketch.svg" width="100px">
+            <h1 style="color:#ffffff;">Design</h1>
+          </div>
+        </div>
 
 
 
+
+
+
+
+        <div class="folio_body">
+          <center>
+            <img src="img/folio/develop/app.svg" width="100px">
+            <h1>UI</h1>
+          </center>
+          <div class="space_around_graphic">
+            <p><img src="img/assets/sketch_screens.gif" style="height: 600px; border: 1px solid #ddd; border-radius: 5px;">
+              <img src="img/assets/midfi_screens.gif" style="height: 600px; border: 1px solid #ddd; border-radius: 5px;"></p>
+            <p>👆 Initial and subsequent sketches from a lo-fidelity prototype.</p>
+            <hr>
+          </div>
+          <br>
+          <div class="space_around_graphic">
+            <p><img src="img/assets/guide_sketch.gif" style="border: 1px solid #ddd; border-radius: 5px;"></p>
+            <p>👆 Initial sketches for instructional photography/videography needed for the guided/learning component of the user experience.</p>
+          </div>
+          <br>
+          <div class="space_around_graphic">
+            <p><img src="img/assets/warm-chemicals.gif" style="border: 1px solid #ddd; border-radius: 5px; width:20em;"><img src="img/assets/agitate_bottle.gif" style="border: 1px solid #ddd; border-radius: 5px; width:20em;">
+              <img src="img/assets/agitate.gif" style="border: 1px solid #ddd; border-radius: 5px; width:20em;">
+
+              <img src="img/assets/pour2.gif" style="border: 1px solid #ddd; border-radius: 5px; width:20em;">
+            </p>
+            <p>👆Instructional videography test shots</p>
+          </div>
+        </div>
+        <br>
+        <div class="article_heading" style="background-color:#B492CD;">
+          <div>
+            <img src="img/folio/eiu/competitor-analysis.svg" width="100px">
+            <h1 style="color:#ffffff;">Prototype</h1>
+          </div>
+        </div>
       </div>
 
 
