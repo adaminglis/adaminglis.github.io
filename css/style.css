@@ -605,6 +605,13 @@ li a {
   display: grid;
   grid-template-columns: auto auto;
 }
+.screen-240 {
+  width:14em;
+  padding-top: 1em;
+  text-align: center;
+  border-width: thin: 1px;
+  border-color: #ffffff;
+}
 
 .folio_list_responsive {}
 
